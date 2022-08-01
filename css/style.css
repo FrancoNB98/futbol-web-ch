@@ -284,10 +284,6 @@ body {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-.grid-items a:hover{
-    height: 60px;
-}
-
 
 
 .grid-items h3 {
@@ -383,7 +379,6 @@ header {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    /* z-index: 10; */
 }
 
 header img {
@@ -409,7 +404,6 @@ header nav ul li a {
     font-weight: 200px;
     font-family: 'Alfa Slab One', cursive;
 }
-
 
 
 body {
@@ -550,9 +544,6 @@ body {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-.productos div a:hover{
-    height: 45px;
-}
 
 
 .publicidad1 {
@@ -655,13 +646,13 @@ body {
     grid-column: 2 / 5;
 }
 
-/* .productos div{
+.productos div{
     display: grid;
 }
 .productos div a{
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-} */
+}
 
 .menu2 {
     width: 100%;
