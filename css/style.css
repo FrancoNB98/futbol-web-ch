@@ -13,7 +13,27 @@
 
 
 /*-----HEADER------*/
-header {
+
+header nav{
+    background-color: rgba(0, 0, 0, 0.667);
+}
+
+header nav div a img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.nav-item img{
+    width: 25px;
+    height: 25px;
+}
+
+#navbarNav a{
+    color: white;
+}
+
+/* header {
     background-image: linear-gradient( to bottom, rgb(50, 50, 50), black);
     width: 100%;
     height: 150px;
@@ -28,14 +48,10 @@ header img {
     width: 120px;
     height: 120px;
 }
-header img:hover{
-    transition: 2s;
-    transform: rotateY(360deg);
-}
 
 
 /*Usuario y Carrito*/
-.user{
+/* .user{
     width: 95%;
     display: flex;
     justify-content: flex-end;
@@ -59,6 +75,9 @@ header nav ul {
     display: flex;
     flex-wrap: wrap;
 }
+header nav ul:hover{
+    color: white;
+}
 
 header nav ul li {
     margin: 20px 20px 0 20px;
@@ -70,14 +89,14 @@ header nav ul li a {
     font-size: 20px;
     font-weight: 200px;
     font-family: 'Alfa Slab One', cursive;
-}
+} */ */
 
 
 
 
-body {
+/* body {
     font-family: 'Inter', sans-serif;
-}
+} */
 
 
 
@@ -130,12 +149,6 @@ body {
     background-color: black;
     padding: 5px;
     border-radius: 5px;
-    transition: 1s;
-}
-
-.hero a:hover{
-    background-color:darkolivegreen;
-    color: black;
 }
 
 
@@ -147,12 +160,6 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-}
-.marcas div{
-    transition: 1s;
-}
-.marcas div:hover{
-    transform: scale(1.1);
 }
 
 .marcas img {
@@ -197,10 +204,6 @@ body {
     font-size: 20px;
     font-weight: 600;
     padding: 10px;
-    transition: 2s;
-}
-.loMasBuscado a:hover{
-    text-decoration: overline;
 }
 
 .publicidad {
@@ -296,12 +299,6 @@ body {
     font-size: 15px;
 }
 
-.primer-item{
-    transition: 2s;
-}
-.primer-item:hover{
-    transform: rotateY(360deg);
-}
 
 .primer-item img{
     width: 150px;
@@ -370,7 +367,7 @@ footer {
 /*----------------------------------INDUMENTARIA----------------------------------*/
 
 
-header {
+/* header {
     background-color: rgb(0, 0, 0);
     width: 100%;
     height: 100px;
@@ -408,7 +405,7 @@ header nav ul li a {
 
 body {
     font-family: 'Inter', sans-serif;
-}
+} */
 
 /*----MAIN----*/
 
