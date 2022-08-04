@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Indumentaria</title>
 </head>
@@ -18,9 +19,9 @@
                 <a class="navbar-brand" href="../index.html"><img src="../img/logo-principal.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon bg-ligth"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
@@ -61,110 +62,114 @@
             <div class="cards">
                 <!--Filtros de compra / Se desplegan en un futuro-->
                 <!--AJUSTAR FILTROS-->
-                <div class="filtros">
-                    <div>
-                        <ul>
-                            <li class="principio">Tipo de Producto</li>
-                            <ol>
-                                <li>Botines</li>
-                                <li>Buzos</li>
-                                <li>Canilleras</li>
-                                <li>Camisetas</li>
-                                <li>Conos</li>
-                                <li>Guantes</li>
-                                <li>Medias</li>
-                                <li>Mochilas</li>
-                                <li>Pelotas</li>
-                            </ol>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul>
-                            <li class="principio">Talle</li>
-                            <ol>
-                                <li>S</li>
-                                <li>M</li>
-                                <li>L</li>
-                                <li>XL</li>
-                                <li>39</li>
-                                <li>39.5</li>
-                                <li>40</li>
-                                <li>40.5</li>
-                                <li>41</li>
-                                <li>41.5</li>
-                            </ol>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul>
-                            <li class="principio">Marca</li>
-                            <ol>
-                                <li>Adidas</li>
-                                <li>New Balance</li>
-                                <li>Nike</li>
-                                <li>Puma</li>
-                                <li>Under Armour</li>
-                                <li>Umbro</li>
-                                <li>Kappa</li>
-                            </ol>
-                        </ul>
+                <div>
+                    <div class="filtros">
+                        <div>
+                            <ul>
+                                <li class="principio">Tipo de Producto</li>
+                                <ol>
+                                    <input type="checkbox"><li>Botines</li>
+                                    <input type="checkbox"><li>Buzos</li>
+                                    <input type="checkbox"><li>Canilleras</li>
+                                    <input type="checkbox"><li>Camisetas</li>
+                                    <input type="checkbox"><li>Conos</li>
+                                    <input type="checkbox"><li>Guantes</li>
+                                    <input type="checkbox"><li>Medias</li>
+                                    <input type="checkbox"><li>Mochilas</li>
+                                    <input type="checkbox"><li>Pelotas</li>
+                                </ol>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="principio">Talle</li>
+                                <ol>
+                                    <li>S</li>
+                                    <li>M</li>
+                                    <li>L</li>
+                                    <li>XL</li>
+                                    <li>39</li>
+                                    <li>39.5</li>
+                                    <li>40</li>
+                                    <li>40.5</li>
+                                    <li>41</li>
+                                    <li>41.5</li>
+                                </ol>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="principio">Marca</li>
+                                <ol>
+                                    <li>Adidas</li>
+                                    <li>New Balance</li>
+                                    <li>Nike</li>
+                                    <li>Puma</li>
+                                    <li>Under Armour</li>
+                                    <li>Umbro</li>
+                                    <li>Kappa</li>
+                                </ol>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="productos">
-                    <!--Cada enlace se redirigira al producto en un futuro-->
-                    <div>
-                        <img src="../img/camiseta-seleccion.webp" alt="camisetaarg">
-                        <h3>Camiseta Seleccion Argentina 22</h3>
-                        <p>$15.000</p>
-                        <a href="">Comprar</a>
-                    </div>
-                    <div>
-                        <img src="../img/campera-barcelona.jpg" alt="camperabarcelona">
-                        <h3>Campera Barcelona 21/22</h3>
-                        <p>$17.000</p>
-                        <a href="">Comprar</a>
-                    </div>
-                    <div>
-                        <img src="../img/boca-juniors.jpg" alt="camisetaboca">
-                        <h3>Camiseta Titular Boca Juniors 22/23</h3>
-                        <p>$14.999</p>
-                        <a href="">Comprar</a>
-                    </div>
-                    <div>
-                        <img src="../img/botin-puma.jpg" alt="botinpuma">
-                        <h3>Botin Puma Evolution</h3>
-                        <p>$36.000</p>
-                        <a href="">Comprar</a>
-                    </div>
-                    <div>
-                        <img src="../img/botines-nike-tiempo.jpg" alt="botinniketiempo">
-                        <h3>Botin Nike Tiempo Legend 9</h3>
-                        <p>$45.000</p>
-                        <a href="">Comprar</a>
-                    </div>
-                    <div>
-                        <img src="../img/camiseta-river.webp" alt="camisetariver">
-                        <h3>Camiseta Titular River Plate</h3>
-                        <p>$14.000</p>
-                        <a href="">Comprar</a>
-                    </div>
-                    <div>
-                        <img src="../img/medias-adidas.jpg" alt="mediasadidas">
-                        <h3>Medias Adidas Futbol</h3>
-                        <p>$3.500</p>
-                        <a href="">Comprar</a>
-                    </div>
-                    <div>
-                        <img src="../img/short-bayern.webp" alt="shortbayern">
-                        <h3>Short Bayern Munich</h3>
-                        <p>$6.000</p>
-                        <a href="">Comprar</a>
-                    </div>
-                    <div>
-                        <img src="../img/pelota-futbol.jpg" alt="pelota-futbol">
-                        <h3>Pelota de Futbol Nike</h3>
-                        <p>$4.000</p>
-                        <a href="">Comprar</a>
+                <div>
+                    <div class="productos">
+                        <!--Cada enlace se redirigira al producto en un futuro-->
+                        <div>
+                            <img src="../img/camiseta-seleccion.webp" alt="camisetaarg">
+                            <h3>Camiseta Seleccion Argentina 22</h3>
+                            <p>$15.000</p>
+                            <a href="">Comprar</a>
+                        </div>
+                        <div>
+                            <img src="../img/campera-barcelona.jpg" alt="camperabarcelona">
+                            <h3>Campera Barcelona 21/22</h3>
+                            <p>$17.000</p>
+                            <a href="">Comprar</a>
+                        </div>
+                        <div>
+                            <img src="../img/boca-juniors.jpg" alt="camisetaboca">
+                            <h3>Camiseta Titular Boca Juniors 22/23</h3>
+                            <p>$14.999</p>
+                            <a href="">Comprar</a>
+                        </div>
+                        <div>
+                            <img src="../img/botin-puma.jpg" alt="botinpuma">
+                            <h3>Botin Puma Evolution</h3>
+                            <p>$36.000</p>
+                            <a href="">Comprar</a>
+                        </div>
+                        <div>
+                            <img src="../img/botines-nike-tiempo.jpg" alt="botinniketiempo">
+                            <h3>Botin Nike Tiempo Legend 9</h3>
+                            <p>$45.000</p>
+                            <a href="">Comprar</a>
+                        </div>
+                        <div>
+                            <img src="../img/camiseta-river.webp" alt="camisetariver">
+                            <h3>Camiseta Titular River Plate</h3>
+                            <p>$14.000</p>
+                            <a href="">Comprar</a>
+                        </div>
+                        <div>
+                            <img src="../img/medias-adidas.jpg" alt="mediasadidas">
+                            <h3>Medias Adidas Futbol</h3>
+                            <p>$3.500</p>
+                            <a href="">Comprar</a>
+                        </div>
+                        <div>
+                            <img src="../img/short-bayern.webp" alt="shortbayern">
+                            <h3>Short Bayern Munich</h3>
+                            <p>$6.000</p>
+                            <a href="">Comprar</a>
+                        </div>
+                        <div>
+                            <img src="../img/pelota-futbol.jpg" alt="pelota-futbol">
+                            <h3>Pelota de Futbol Nike</h3>
+                            <p>$4.000</p>
+                            <a href="">Comprar</a>
+                        </div>
                     </div>
                 </div>
             </div>

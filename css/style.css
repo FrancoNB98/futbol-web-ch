@@ -14,21 +14,22 @@
 
 /*-----HEADER------*/
 
-header nav{
-    background: linear-gradient(161deg, rgba(0,0,0,1) 25%, rgba(25,23,23,1) 50%, rgba(0,0,0,1) 75%);
+header .navbar{
+    background: linear-gradient(161deg, rgba(0,0,0,1) 30%, rgba(25,23,23,1) 60%, rgba(0,0,0,1) 80%);
+    padding: 10px;
 }
 
-header nav div a img{
+
+.navbar-brand img{
     width: 100px;
     height: 100px;
     transition: 2s;
 }
 
-header nav div a img:hover{
+
+.navbar-brand img:hover{
     transform: scale(1.2);
 }
-
-
 
 
 .nav-item img{
@@ -40,9 +41,17 @@ header nav div a img:hover{
     border: 5px;
 }
 
+
 #navbarNav a{
     color: white;
     font-size: 22px;
+}
+
+
+header .segundo-nav{
+    height: 100%;
+    padding: 5px;
+    background: linear-gradient(161deg, rgba(0,0,0,1) 9%, rgba(25,23,23,1) 43%, rgba(0,0,0,1) 67%);
 }
 
 
@@ -75,6 +84,7 @@ header nav div a img:hover{
     color: white;
 }
 
+
 .hero h2 {
     font-size: 30px;
     font-weight: 100;
@@ -84,6 +94,7 @@ header nav div a img:hover{
     line-height: 100px;
     color: white;
 }
+
 
 .hero a {
     text-decoration: none;
@@ -103,6 +114,7 @@ header nav div a img:hover{
     color: black;
 }
 
+
 .marcas {
     background-color: rgba(176, 196, 222, 0.938);
     padding: 1px;
@@ -112,6 +124,7 @@ header nav div a img:hover{
     align-items: center;
     flex-wrap: wrap;
 }
+
 
 .marcas img {
     width: 182px;
@@ -125,9 +138,11 @@ header nav div a img:hover{
     -moz-box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.47);
 }
 
+
 .marcas img a {
     text-decoration: none;
 }
+
 
 .loMasBuscado {
     text-align: center;
@@ -140,6 +155,7 @@ header nav div a img:hover{
     flex-wrap: wrap;
 }
 
+
 .loMasBuscado h2 {
     font-size: 20px;
     font-weight: 100;
@@ -149,6 +165,7 @@ header nav div a img:hover{
     line-height: 50px;
     color: black;
 }
+
 
 .loMasBuscado a {
     text-decoration: none;
@@ -164,6 +181,7 @@ header nav div a img:hover{
     text-decoration: overline;
 }
 
+
 .publicidad {
     background-color: rgb(0, 0, 0);
     padding: 30px;
@@ -172,6 +190,7 @@ header nav div a img:hover{
     align-items: center;
     flex-wrap: wrap;
 }
+
 
 .publicidad div {
     color: white;
@@ -182,10 +201,12 @@ header nav div a img:hover{
     font-weight: 200;
 }
 
+
 .publicidad iframe {
     width: 640px;
     height: 400px;
 }
+
 
 /*UTILIZACION DE GRID EN SECCION OFERTAS*/
 
@@ -198,17 +219,20 @@ header nav div a img:hover{
     gap: 5px;
 }
 
+
 .seccion-ofertas{
     grid-column: 1/6;
     display: flex;
     align-items: center;
 }   
 
+
 .grid-items{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 
 .grid-items div{
     display: grid;
@@ -255,6 +279,7 @@ header nav div a img:hover{
     margin: 10px;
     font-size: 17px;
 }
+
 
 .grid-items p {
     font-weight: 600;
@@ -303,10 +328,12 @@ footer {
     margin-top: 15px;
 }
 
+
 .Logopie {
     width: 100px;
     height: 100px;
 }
+
 
 .columna2 ul li a {
     text-decoration: none;
@@ -316,6 +343,7 @@ footer {
     font-family: 'Koulen', cursive;
 }
 
+
 .columna3 {
     display: flex;
     justify-content: space-around;
@@ -323,10 +351,12 @@ footer {
     flex-direction: column;
 }
 
+
 .columna3 img {
     width: 25px;
     height: 25px;
 }
+
 
 .columna3 div p {
     font-size: 15px;
@@ -366,6 +396,7 @@ footer {
     flex-wrap: wrap;
 }
 
+
 .menu1 h1 {
     font-size: 40px;
     font-weight: 200;
@@ -376,6 +407,7 @@ footer {
     color: white;
 }
 
+
 .menu1 h2 {
     font-size: 30px;
     font-weight: 100;
@@ -385,6 +417,7 @@ footer {
     line-height: 80px;
     color: white;
 }
+
 
 .indumentaria {
     font-size: 30px;
@@ -400,28 +433,29 @@ footer {
 
 .grid-container{
     display: grid;
-    grid-template-columns: 0.75fr repeat(3,1.5fr);
+    grid-template-columns: 1fr repeat(3,1.5fr);
     grid-template-rows: auto;
 }
 
 .filtros ul{
     list-style-type: none;
     border: 2px double black;
-    padding: 30px;
-    margin: 20px 20px 0 20px;
-    font-weight: bold;
+    padding: 40px;
+    margin: 10px 10px 0 10px;
 }
+
+.filtros ul ol{
+    margin: 10px;
+    padding: 10px;
+}
+
 .filtros ul li{
     list-style-type: none;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 300;
     font-family: 'Koulen', cursive;
+    display: flex;
 }
-
-.filtros .principio{
-    overflow-y: scroll;
-}
-
 
 .cards {
     grid-column: 1/5;
@@ -483,7 +517,6 @@ footer {
     border-bottom-right-radius: 15px;
 }
 
-
 .publicidad1 {
     background-color: black;
     padding: 20px;
@@ -511,6 +544,7 @@ footer {
 
 
 /*-----------FOOTER-------------*/
+
 .pie {
     background: linear-gradient(161deg, rgba(0,0,0,1) 25%, rgba(25,23,23,1) 50%, rgba(0,0,0,1) 75%);
     height: 150px;
@@ -554,12 +588,12 @@ footer {
     color: white;
 }
 
-
 .columna4 img {
     width: 40px;
     height: 40px;
     transition: 1s;
 }
+
 .columna4 img:hover{
     transform: scale(1.2);
 }
