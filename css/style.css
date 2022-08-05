@@ -970,7 +970,7 @@ section div .uno img{
 }
 
 
-@media screen and (max-width:729px){
+@media screen and (max-width:723px){
     .grid-container-ofertas{
         grid-template-columns:1fr 1fr;
         grid-template-rows: auto;
@@ -1032,6 +1032,7 @@ section div .uno img{
     }
 }
 
+
 @media screen and (max-width:767px){
     #navbarNav a{
         text-align: center;
@@ -1040,13 +1041,6 @@ section div .uno img{
 
 
 /*RESPONSIVE Index/Main MAX-WIDTH*/
-
-
-@media screen and (max-width:1223px){
-    .publicidad{
-        padding: 10px;
-    }
-}
 
 
 @media screen and (max-width:1183px){
@@ -1080,12 +1074,8 @@ section div .uno img{
     section div .carousel-inner img{
         height: 300px;
     }
-}
-
-
-@media screen and (max-width:577px){
     .marcas img{
-        width: 100px;
+        width: 110px;
         height: 80px;
     }
 }
@@ -1105,36 +1095,15 @@ section div .uno img{
     section div .carousel-inner img{
         height: 200px;
     }
-}
-
-
-@media screen and (max-width:385px){
     .marcas img{
         width: 80px;
         height: 60px;
     }
-}
-
-
-@media screen and (max-width:381px){
     .hero h1{
         font-size: 20px;
     }
     .hero h2{
         font-size: 15px;
-    }
-    .hero a{
-        font-size: 10px;
-    }
-}
-
-
-@media screen and (max-width:309px){
-    .hero h1{
-        font-size: 18px;
-    }
-    .hero h2{
-        font-size: 12px;
     }
     .hero a{
         font-size: 10px;
@@ -1198,6 +1167,7 @@ section div .uno img{
     }
 }
 
+
 @media screen and (max-width:367px){
     .columna2 ul li{
         list-style-type: none;
@@ -1217,7 +1187,7 @@ section div .uno img{
 /*RESPONSIVE Indumentaria/Header MAX-WIDTH*/
 
 
-@media screen and (max-width:1096px){
+@media screen and (max-width:1051px){
     .grid-container{
         grid-template-columns: 0.75fr repeat(2,1.5fr);
         grid-template-rows: auto;
@@ -1234,20 +1204,6 @@ section div .uno img{
     }
     .menu1 h2{
         font-size: 15px;
-    }
-}
-
-
-@media screen and (max-width:776px){
-    .menu1 h1{
-        font-size: 30px;
-        line-height: 100px;
-        letter-spacing: normal;
-    }
-    .menu1 h2{
-        font-size: 20px;
-        line-height: 40px;
-        letter-spacing: normal;
     }
 }
 
@@ -1278,6 +1234,16 @@ section div .uno img{
         width: 550px;
         height: 200px;
     }
+    .menu1 h1{
+        font-size: 30px;
+        line-height: 100px;
+        letter-spacing: normal;
+    }
+    .menu1 h2{
+        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: normal;
+    }
 }
 
 
@@ -1292,25 +1258,6 @@ section div .uno img{
     .accordion-item h2{
         margin-left:0px;
     }
-}
-
-
-@media screen and (max-width:500px){
-    .menu1{
-        background-attachment: local;
-    }
-}
-
-
-@media screen and (max-width:350px){
-    .accordion-item h2{
-        margin-left: 35%;
-    }
-}
-
-
-
-@media screen and (max-width:589px){
     .productos{
         gap: 0;
     }
@@ -1343,13 +1290,16 @@ section div .uno img{
         font-size: 10px;
         padding: 0;
     }
-}
-
-
-@media screen and (max-width:550px){
     .publicidad1 iframe{
         width: 350px;
         height: 200px;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .menu1{
+        background-attachment: local;
     }
 }
 
@@ -1386,11 +1336,17 @@ section div .uno img{
 }
 
 
+@media screen and (max-width:350px){
+    .accordion-item h2{
+        margin-left: 35%;
+    }
+}
+
 
 /*RESPONSIVE Accesorios/Main MAX-WIDTH*/
 
 
-@media screen and (max-width:1096px){
+@media screen and (max-width:1051px){
     .grid-container2{
         grid-template-columns: 0.75fr repeat(2,1.5fr);
         grid-template-rows: auto;
@@ -1450,7 +1406,7 @@ section div .uno img{
 /*RESPONSIVE Marcas/Main MAX-WIDTH*/
 
 
-@media screen and (max-width:1096px){
+@media screen and (max-width:1051px){
     .grid-container3{
         grid-template-columns: 0.75fr repeat(2,1.5fr);
         grid-template-rows: auto;
@@ -1468,17 +1424,14 @@ section div .uno img{
 }
 
 
-@media screen and (max-width:700px){
-    .menu3 h1{
-        font-size: 30px;
+@media screen and (max-width:786px){
+    .grid-container3{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
     }
-    .menu3 h2{
-        font-size: 20px;
+    .card4{
+        display: block;
     }
-}
-
-
-@media screen and (max-width:785px){
     .menu3 h1{
         font-size: 25px;
     }
@@ -1488,15 +1441,15 @@ section div .uno img{
 }
 
 
-@media screen and (max-width:786px){
-    .grid-container3{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
+@media screen and (max-width:700px){
+    .menu3 h1{
+        font-size: 30px;
     }
-    .card4{
-        display: block;
+    .menu3 h2{
+        font-size: 20px;
     }
 }
+
 
 @media screen and (max-width:500px){
     .menu3{
