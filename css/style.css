@@ -1429,6 +1429,12 @@ section div .uno img{
     }
 }
 
+@media screen and (max-width:500px){
+    .menu2{
+        background-attachment: local;
+    }
+}
+
 
 @media screen and (max-width:390px){
     .menu2 h1{
@@ -1492,6 +1498,11 @@ section div .uno img{
     }
 }
 
+@media screen and (max-width:500px){
+    .menu3{
+        background-attachment: local;
+    }
+}
 
 
 
