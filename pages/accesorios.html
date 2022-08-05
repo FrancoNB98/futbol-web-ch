@@ -13,7 +13,7 @@
 <body>
     <header>
         <!--La Cabeza de la Pagina / Menu-->
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-md navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html"><img src="../img/logo-principal.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -60,15 +60,70 @@
         <section class="grid-container2">
             <div class="card2">
                 <!--Filtros de compra / Se desplegan en un futuro-->
-                <div class="filtros">
-                    <div>
-                        <ul>
-                            <li>Tipo de Producto</li>
-                            <li>Marca</li>
-                            <li>Talle</li>
-                            <li>Sexo</li>
-                            <li>Precio</li>
-                        </ul>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2>Filtros</h2>
+                        <h3 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                TIPO DE PRODUCTO
+                            </button>
+                        </h3>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><input type="checkbox"> Botines</div>
+                            <div class="accordion-body"><input type="checkbox"> Buzos</div>
+                            <div class="accordion-body"><input type="checkbox"> Canilleras</div>
+                            <div class="accordion-body"><input type="checkbox"> Camisetas</div>
+                            <div class="accordion-body"><input type="checkbox"> Medias</div>
+                            <div class="accordion-body"><input type="checkbox"> Mochilas</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                TALLES
+                            </button>
+                        </h3>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><input type="checkbox"> S</div>
+                            <div class="accordion-body"><input type="checkbox"> M</div>
+                            <div class="accordion-body"><input type="checkbox"> L</div>
+                            <div class="accordion-body"><input type="checkbox"> XL</div>
+                            <div class="accordion-body"><input type="checkbox"> 38</div>
+                            <div class="accordion-body"><input type="checkbox"> 38.5</div>
+                            <div class="accordion-body"><input type="checkbox"> 39</div>
+                            <div class="accordion-body"><input type="checkbox"> 39.5</div>
+                            <div class="accordion-body"><input type="checkbox"> 40</div>
+                            <div class="accordion-body"><input type="checkbox"> 40.5</div>
+                            <div class="accordion-body"><input type="checkbox"> 41</div>
+                            <div class="accordion-body"><input type="checkbox"> 41.5</div>
+                            <div class="accordion-body"><input type="checkbox"> 42</div>
+                            <div class="accordion-body"><input type="checkbox"> 43</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                MARCA
+                            </button>
+                        </h3>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><input type="checkbox"> Adidas</div>
+                            <div class="accordion-body"><input type="checkbox"> New Balance</div>
+                            <div class="accordion-body"><input type="checkbox"> Nike</div>
+                            <div class="accordion-body"><input type="checkbox"> Puma</div>
+                            <div class="accordion-body"><input type="checkbox"> Under Armour</div>
+                            <div class="accordion-body"><input type="checkbox"> Umbro</div>
+                            <div class="accordion-body"><input type="checkbox"> Kappa</div>
+                        </div>
                     </div>
                 </div>
                 <div class="productos">
@@ -196,6 +251,9 @@
             <a href="https://www.instagram.com/"><img src="../img/instagram.png" alt="instagram" target="_blank"></a>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

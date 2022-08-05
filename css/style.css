@@ -216,7 +216,6 @@ header .segundo-nav{
     display: grid;
     grid-template-columns: 0.5fr repeat(4,1fr);    
     grid-template-rows: 400px;
-    gap: 5px;
 }
 
 
@@ -238,7 +237,6 @@ header .segundo-nav{
     display: grid;
     width: 250px;
     height: 400px;
-    letter-spacing: normal;
     border: 1px solid lightsteelblue;
     margin: 10px 10px 15px 20px;
     text-align: center;
@@ -259,6 +257,8 @@ header .segundo-nav{
 
 
 .grid-items a {
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -276,7 +276,7 @@ header .segundo-nav{
 .grid-items h3 {
     font-weight: 600;
     font-family: 'Koulen', cursive;
-    margin: 10px;
+    margin: 6px;
     font-size: 17px;
 }
 
@@ -419,8 +419,16 @@ footer {
 }
 
 
-.indumentaria {
-    font-size: 30px;
+section div .uno img{
+    width: 100%;
+    height: 250px;
+    margin-top: 2px;
+    border: 2px solid black;
+}
+
+
+.indumentaria h2{
+    font-size: 45px;
     font-weight: 400;
     font-style: normal;
     font-family: 'Koulen', cursive;
@@ -437,27 +445,24 @@ footer {
     grid-template-rows: auto;
 }
 
-.filtros ul{
-    list-style-type: none;
-    border: 2px double black;
-    padding: 40px;
-    margin: 10px 10px 0 10px;
-}
-
-.filtros ul ol{
-    margin: 10px;
-    padding: 10px;
-}
-
-.filtros ul li{
-    list-style-type: none;
-    font-size: 15px;
-    font-weight: 300;
+.accordion-item h2{
+    font-size: 30px;
     font-family: 'Koulen', cursive;
-    display: flex;
+    text-align: center;
+    color: black;
 }
 
-.cards {
+.accordion-button{
+    font-size: 20px;
+    font-family: 'Koulen', cursive;
+}
+
+.accordion-body{
+    font-size: 15px;
+    font-family: 'Koulen', cursive;
+}
+
+.tarjetas{
     grid-column: 1/5;
     display: flex;
 }
@@ -467,11 +472,10 @@ footer {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    gap: 30px;
+    gap: 40px;
 }
 
 .productos div {
-    display: grid;
     width: 250px;
     height: 360px;
     letter-spacing: normal;
@@ -496,7 +500,6 @@ footer {
     font-size: 16px;
     font-weight: 600;
     font-family: 'Koulen', cursive;
-    padding: 5px;
 }
 
 .productos p {
@@ -505,16 +508,11 @@ footer {
     font-family: 'Koulen', cursive;
 }
 
-.productos div a {
+.productos div a{
     text-decoration: none;
-    font-size: 20px;
-    color: white;
     background-color: black;
     padding: 5px;
-    text-align: center;
-    justify-items: auto;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    color: white;
 }
 
 .publicidad1 {
@@ -547,26 +545,29 @@ footer {
 
 .pie {
     background: linear-gradient(161deg, rgba(0,0,0,1) 25%, rgba(25,23,23,1) 50%, rgba(0,0,0,1) 75%);
-    height: 150px;
+    height: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 15px;
 }
 
+
 .Logopie {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 }
+
 
 .columna2 ul li a {
     text-decoration: none;
     color: white;
-    font-size: 22px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 200;
     font-family: 'Koulen', cursive;
-    letter-spacing: 2px;
 }
+
 
 .columna3 {
     display: flex;
@@ -575,27 +576,24 @@ footer {
     flex-direction: column;
 }
 
+
 .columna3 img {
     width: 25px;
     height: 25px;
 }
 
+
 .columna3 div p {
-    font-size: 17px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 200;
     font-family: 'Koulen', cursive;
-    letter-spacing: 2px;
     color: white;
 }
+
 
 .columna4 img {
     width: 40px;
     height: 40px;
-    transition: 1s;
-}
-
-.columna4 img:hover{
-    transform: scale(1.2);
 }
 
 
@@ -664,8 +662,8 @@ footer {
     color: black;
 }
 
-.accesorios {
-    font-size: 30px;
+.accesorios h2{
+    font-size: 45px;
     font-weight: 400;
     font-style: normal;
     font-family: 'Koulen', cursive;
@@ -739,8 +737,8 @@ footer {
     color: white;
 }
 
-.marca {
-    font-size: 30px;
+.marca h2{
+    font-size: 45px;
     font-weight: 400;
     font-style: normal;
     font-family: 'Koulen', cursive;
@@ -935,15 +933,15 @@ footer {
 /*RESPONSIVE Index/Grid MAX-WIDTH*/
 
 
-@media screen and (max-width:1308px){
+@media screen and (max-width:1303px){
     .grid-container-ofertas{
         grid-template-columns: 0.5fr repeat(3,1fr);
-        grid-template-rows: 800px;      
+        grid-template-rows: 800px;  
     }
 }
 
 
-@media screen and (max-width:1019px){
+@media screen and (max-width:1312px){
     .grid-container-ofertas{
         grid-template-columns: 0.5fr repeat(2,1fr);
     }
@@ -955,8 +953,8 @@ footer {
 
 @media screen and (max-width:748px){
     .grid-container-ofertas{
-        grid-template-columns:1fr;
-        grid-template-rows: 1000px;
+        grid-template-columns:1fr 1fr 1fr;
+        grid-template-rows: auto;
     }
     .seccion-ofertas{
         flex-direction: column;
@@ -965,44 +963,80 @@ footer {
         width: 200px;
         height: 150px;
     }
+    .grid-items div{
+        width: 200px;
+        height: 350px;
+    }
 }
+
+
+@media screen and (max-width:729px){
+    .grid-container-ofertas{
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: auto;
+        }
+    }
 
 
 @media screen and (max-width:593px){
     .grid-container-ofertas{
-        grid-template-rows: 1850px;
+        grid-template-rows: auto;
     }
 }
 
+
+@media screen and (max-width:496px){
+    .grid-items div{
+        width: 150px;
+        height: 250px;
+    }
+    .grid-items a{
+        font-size: 10px;
+    }
+    .grid-items h3{
+        font-size: 14px;
+    }
+    .grid-items p{
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width:396px){
+    .grid-items div{
+        width: 120px;
+        height: 200px;
+    }
+    .grid-items a{
+        font-size: 9px;
+    }
+    .grid-items h3{
+        font-size: 11px;
+    }
+    .grid-items p{
+        font-size: 11px;
+    }
+    .primer-item img{
+        width: 170px;
+        height: 110px;
+    }
+}
 
 
 /*RESPONSIVE Index/Header MAX-WIDTH*/
 
 
-/* @media screen and (max-width: 870px){
-    header{
-        flex-direction: column;
-        position: static;
-        height: auto;
-        background-color: black;
+@media screen and (max-width:991px){
+    #navbarNav a{
+        font-size: 20px;
     }
 }
 
-
-@media screen and (max-width:684px){
-    header nav ul{
-        flex-direction: column;
+@media screen and (max-width:767px){
+    #navbarNav a{
         text-align: center;
     }
 }
-
-
-@media screen and (max-width:684px){
-    .user{
-        justify-content: center;
-    }
-} */
-
 
 
 /*RESPONSIVE Index/Main MAX-WIDTH*/
@@ -1043,6 +1077,42 @@ footer {
     .hero a{
         font-size: 15px;
     }
+    section div .carousel-inner img{
+        height: 300px;
+    }
+}
+
+
+@media screen and (max-width:577px){
+    .marcas img{
+        width: 100px;
+        height: 80px;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .hero{
+        background-attachment: local;
+    }
+    .publicidad div .p1{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    section div .carousel-inner img{
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width:385px){
+    .marcas img{
+        width: 80px;
+        height: 60px;
+    }
 }
 
 
@@ -1076,10 +1146,6 @@ footer {
     .marcas{
         justify-content: space-around;
     }
-    .marcas img{
-        width: 100px;
-        height: 60px;
-    }
 }
 
 
@@ -1088,37 +1154,43 @@ footer {
 
 
 @media screen and (max-width:720px){
-    .logopie{
-        width: 80px;
-        height: 80px;
-    }
     .columna2 ul li a{
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 500px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Koulen', cursive;
     }
     .columna3 div p{
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 500px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Koulen', cursive;
     }
 }
 
 
-@media screen and (max-width:570px){
-    .logopie{
-        width: 60px;
-        height: 60px;
-    }
+@media screen and (max-width:510px){
     .columna2 ul li a{
         font-size: 15px;
-        font-weight: 500px;
-        font-family: 'Open Sans', sans-serif;
+    }
+    .columna3 img{
+        width: 20px;
+        height: 20px;
     }
     .columna3 div p{
-        font-size: 12px;
-        font-weight: 500px;
-        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:462px){
+    .columna2 ul li a{
+        font-size: 15px;
+    }
+    .columna3 img{
+        width: 16px;
+        height: 16px;
+    }
+    .columna3 div p{
+        font-size: 15px;
     }
     .columna4 img{
         width: 30px;
@@ -1126,17 +1198,17 @@ footer {
     }
 }
 
-
-@media screen and (max-width:348){
+@media screen and (max-width:367px){
+    .columna2 ul li{
+        list-style-type: none;
+        text-align: center;
+    }
     .columna2 ul li a{
-        font-size: 10px;
+        font-size: 16px;
     }
-    .columna3 img{
-        width: 5px;
-        height: 5px;
-    }
-    .columna3 div p{
-        font-size: 10px;
+    .Logopie{
+        width: 80px;
+        height: 80px;
     }
 }
 
@@ -1151,16 +1223,6 @@ footer {
         grid-template-rows: auto;
     }
 }
-
-
-/* @media screen and (max-width:870px){
-    header{
-        flex-direction: column;
-        position: static;
-        height: auto;
-    }
-} */
-
 
 
 /*RESPONSIVE Indumentaria/Main MAX-WIDTH*/
@@ -1194,16 +1256,14 @@ footer {
     .grid-container{
         grid-template-columns: 1fr 1fr;
     }
-    .cards{
+    .tarjetas{
         display:block;
     }
-    .filtros{
-        grid-column: 1 / 3;
-        text-align: center;
-    }
-    .filtros ul{
-        margin: 0;
-        padding: 0;
+    .accordion-item h2{
+        border: 3px solid black;
+        height: 40px;
+        width: 100px;
+        margin-left: 43%;
     }
     .publicidad1{
         flex-direction: column;
@@ -1221,6 +1281,35 @@ footer {
 }
 
 
+@media screen and (max-width:694px){
+    section div .uno img{
+    height: 200px;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .accordion-item h2{
+        margin-left:0px;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .menu1{
+        background-attachment: local;
+    }
+}
+
+
+@media screen and (max-width:350px){
+    .accordion-item h2{
+        margin-left: 35%;
+    }
+}
+
+
+
 @media screen and (max-width:589px){
     .productos{
         gap: 0;
@@ -1234,7 +1323,7 @@ footer {
     }
     .productos div {
         width: 150px;
-        height: 260px;
+        height: 270px;
     }
     
     .productos img {
@@ -1252,6 +1341,7 @@ footer {
     
     .productos a {
         font-size: 10px;
+        padding: 0;
     }
 }
 
@@ -1260,6 +1350,13 @@ footer {
     .publicidad1 iframe{
         width: 350px;
         height: 200px;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    section div .uno img{
+    height: 150px;
     }
 }
 
@@ -1506,8 +1603,7 @@ footer {
         height: 200px;
     }
     .opinion{
-        width: 100%;
-        height: 225px;
+        height: 200px;
     }
 }
 
