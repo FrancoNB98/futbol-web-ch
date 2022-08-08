@@ -369,8 +369,11 @@ footer {
 .columna4 img {
     width: 40px;
     height: 40px;
+    transition: 1s;
 }
-
+.columna4 img:hover{
+    transform: scale(1.2);
+}
 
 
 /*----------------------------------INDUMENTARIA----------------------------------*/
@@ -1279,7 +1282,7 @@ section div .uno img{
     }
     
     .productos h3 {
-        font-size: 12px;
+        font-size: 10px;
     }
     
     .productos p {
