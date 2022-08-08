@@ -45,6 +45,10 @@ header .navbar{
 #navbarNav a{
     color: white;
     font-size: 22px;
+    transition: 1.5s;
+}
+#navbarNav a:hover{
+    color: rgb(85, 85, 85);
 }
 
 
@@ -1185,6 +1189,13 @@ section div .uno img{
     }
 }
 
+@media screen and (max-width:383px){
+    footer{
+        width: 100%;
+        height: 20%;
+    }
+}
+
 
 
 /*RESPONSIVE Indumentaria/Header MAX-WIDTH*/
@@ -1335,6 +1346,14 @@ section div .uno img{
     
     .productos a {
         font-size: 8px;
+    }
+}
+
+
+@media screen and (max-width:383px){
+    .pie{
+        width: 100%;
+        height: 20%;
     }
 }
 
