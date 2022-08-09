@@ -1,0 +1,42 @@
+/*--Header--*/
+header{
+    .navbar{
+        background: linear-gradient(161deg, rgba(0,0,0,1) 30%, rgba(25,23,23,1) 60%, rgba(0,0,0,1) 80%);
+        padding: 10px;
+        .container-fluid{
+            .navbar-brand img{
+                width: 100px;
+                height: 100px;
+                transition: 2s;
+                &:hover{
+                    transform: scale(1.2);
+                }
+            }
+            #navbarNav{
+                a{
+                    color: white;
+                    font-size: 22px;
+                    transition: 1.5s;
+                    &:hover{
+                        color: rgb(85, 85, 85);
+                    }
+                }
+                .nav-item img{
+                    width: 25px;
+                    height: 25px;
+                    background-color: white;
+                    border-radius: 5px 5px 5px 5px;
+                    padding: 3px;
+                    border: 5px;
+                }
+            }
+        }
+    }
+    nav{
+        .segundo-nav{
+            height: 100%;
+            padding: 5px;
+            background: linear-gradient(161deg, rgba(0,0,0,1) 9%, rgba(25,23,23,1) 43%, rgba(0,0,0,1) 67%);
+        }
+    }
+}

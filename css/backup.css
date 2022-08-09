@@ -1,0 +1,1601 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Koulen&family=Lato:wght@300;400&family=Roboto+Mono:wght@200&family=Roboto:wght@300;400&display=swap');
+
+/*RESETEO*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*---------------------------INDEX------------------------*/
+
+
+/*-----HEADER------*/
+
+header .navbar{
+    background: linear-gradient(161deg, rgba(0,0,0,1) 30%, rgba(25,23,23,1) 60%, rgba(0,0,0,1) 80%);
+    padding: 10px;
+}
+
+
+.navbar-brand img{
+    width: 100px;
+    height: 100px;
+    transition: 2s;
+}
+
+
+.navbar-brand img:hover{
+    transform: scale(1.2);
+}
+
+
+#navbarNav .nav-item img{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    padding: 3px;
+    border: 5px;
+}
+
+
+#navbarNav a{
+    color: white;
+    font-size: 22px;
+    transition: 1.5s;
+}
+#navbarNav a:hover{
+    color: rgb(85, 85, 85);
+}
+
+
+header .segundo-nav{
+    height: 100%;
+    padding: 5px;
+    background: linear-gradient(161deg, rgba(0,0,0,1) 9%, rgba(25,23,23,1) 43%, rgba(0,0,0,1) 67%);
+}
+
+
+/*------MAIN------- */
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/banner-3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: 200;
+    font-style: normal;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 15px;
+    line-height: 100px;
+    color: white;
+}
+
+
+.hero h2 {
+    font-size: 30px;
+    font-weight: 100;
+    font-style: normal;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 10px;
+    line-height: 100px;
+    color: white;
+}
+
+
+.hero a {
+    text-decoration: none;
+    color: white;
+    font-style: initial;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.hero a:hover{
+    background-color: rgba(19, 47, 19, 0.697);
+    color: black;
+}
+
+
+.marcas {
+    background-color: rgba(176, 196, 222, 0.938);
+    padding: 1px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.marcas img {
+    width: 182px;
+    height: 80px;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px 10px 10px 10px;
+    /* border: 1px solid rgba(176, 196, 222, 0.938); */
+    box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.47);
+    -webkit-box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.47);
+    -moz-box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.47);
+}
+
+
+.marcas img a {
+    text-decoration: none;
+}
+
+
+.loMasBuscado {
+    text-align: center;
+    padding: 10px;
+    background-color: lightsteelblue;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.loMasBuscado h2 {
+    font-size: 20px;
+    font-weight: 100;
+    font-style: normal;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 5px;
+    line-height: 50px;
+    color: black;
+}
+
+
+.loMasBuscado a {
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.loMasBuscado a:hover{
+    text-decoration: overline;
+}
+
+
+.publicidad {
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.publicidad div {
+    color: white;
+    width: 45%;
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+
+.publicidad iframe {
+    width: 640px;
+    height: 400px;
+}
+
+
+/*UTILIZACION DE GRID EN SECCION OFERTAS*/
+
+.grid-container-ofertas{
+    border: solid 2px white;
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 0.5fr repeat(4,1fr);    
+    grid-template-rows: 400px;
+}
+
+
+.seccion-ofertas{
+    grid-column: 1/6;
+    display: flex;
+    align-items: center;
+}   
+
+
+.grid-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.grid-items div{
+    display: grid;
+    width: 250px;
+    height: 400px;
+    border: 1px solid lightsteelblue;
+    margin: 10px 10px 15px 20px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: gainsboro;
+    box-shadow: 10px 8px 5px -3px rgba(0,0,0,0.61);
+    -webkit-box-shadow: 10px 8px 5px -3px rgba(0,0,0,0.61);
+    -moz-box-shadow: 10px 8px 5px -3px rgba(0,0,0,0.61);
+}
+
+
+.grid-items img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.grid-items a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 1px;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.grid-items h3 {
+    font-weight: 600;
+    font-family: 'Koulen', cursive;
+    margin: 6px;
+    font-size: 17px;
+}
+
+
+.grid-items p {
+    font-weight: 600;
+    font-family: 'Koulen', cursive;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+
+.primer-item img{
+    width: 150px;
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.58);
+    -webkit-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.58);
+    -moz-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.58);
+    transition: 1.5s;
+}
+
+.primer-item img:hover{
+    transform: scale(1.05);
+}
+
+
+.primer-item a{
+    text-decoration: none;
+}
+
+
+/*--Carousel--*/
+section div .carousel-inner img{
+    width: 100%;
+    height: 400px;
+}
+
+
+/*-------FOOTER-------*/
+
+footer {
+    background: linear-gradient(161deg, rgba(0,0,0,1) 25%, rgba(25,23,23,1) 50%, rgba(0,0,0,1) 75%);
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+
+.Logopie {
+    width: 100px;
+    height: 100px;
+}
+
+
+.columna2 ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Koulen', cursive;
+}
+
+
+.columna3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.columna3 img {
+    width: 25px;
+    height: 25px;
+}
+
+
+.columna3 div p {
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Koulen', cursive;
+    color: white;
+}
+
+
+.columna4 img {
+    width: 40px;
+    height: 40px;
+    transition: 1s;
+}
+.columna4 img:hover{
+    transform: scale(1.2);
+}
+
+
+/*----------------------------------INDUMENTARIA----------------------------------*/
+
+
+
+/*----MAIN----*/
+
+
+.menu1 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner-nike.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.menu1 h1 {
+    font-size: 40px;
+    font-weight: 200;
+    font-style: normal;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 15px;
+    line-height: 80px;
+    color: white;
+}
+
+
+.menu1 h2 {
+    font-size: 30px;
+    font-weight: 100;
+    font-style: normal;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 10px;
+    line-height: 80px;
+    color: white;
+}
+
+
+section div .uno img{
+    width: 100%;
+    height: 250px;
+    margin-top: 2px;
+    border: 2px solid black;
+}
+
+
+.indumentaria h2{
+    font-size: 45px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Koulen', cursive;
+    text-align: center;
+    letter-spacing: 5px;
+    color: black;
+}
+
+/*--Aplicamos Grid al Main--*/
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr repeat(3,1.5fr);
+    grid-template-rows: auto;
+}
+
+.accordion-item h2{
+    font-size: 30px;
+    font-family: 'Koulen', cursive;
+    text-align: center;
+    color: black;
+}
+
+.accordion-button{
+    font-size: 20px;
+    font-family: 'Koulen', cursive;
+}
+
+.accordion-body{
+    font-size: 15px;
+    font-family: 'Koulen', cursive;
+}
+
+.tarjetas{
+    grid-column: 1/5;
+    display: flex;
+}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.productos div {
+    width: 250px;
+    height: 360px;
+    letter-spacing: normal;
+    border: 1px solid lightsteelblue;
+    margin: 20px 10px 15px 20px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: gainsboro;
+    box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+}
+
+.productos img {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.productos h3 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Koulen', cursive;
+}
+
+.productos p {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Koulen', cursive;
+}
+
+.productos div a{
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+
+.publicidad1 {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.publicidad1 iframe {
+    width: 500px;
+    height: 260px;
+}
+
+.publicidad1 div {
+    color: white;
+    width: 50%;
+    font-size: 25px;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+/*-----------FOOTER-------------*/
+
+.pie {
+    background: linear-gradient(161deg, rgba(0,0,0,1) 25%, rgba(25,23,23,1) 50%, rgba(0,0,0,1) 75%);
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+
+.Logopie {
+    width: 100px;
+    height: 100px;
+}
+
+
+.columna2 ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Koulen', cursive;
+}
+
+
+.columna3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.columna3 img {
+    width: 25px;
+    height: 25px;
+}
+
+
+.columna3 div p {
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Koulen', cursive;
+    color: white;
+}
+
+
+.columna4 img {
+    width: 40px;
+    height: 40px;
+}
+
+
+/*--------------------------------ACCESORIOS---------------------------------*/
+
+/*------------MAIN--------------- */
+
+/*--Aplicamos Grid al Main--*/
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: 0.75fr repeat(3,1.5fr);
+    grid-template-rows: auto
+}
+
+.card2{
+    display: flex;
+    grid-column: 1 / 5;
+}
+
+.card3{
+    grid-column: 2 / 5;
+}
+
+.productos div{
+    display: grid;
+}
+.productos div a{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.menu2 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.menu2 h1 {
+    font-size: 40px;
+    font-weight: 200;
+    font-style: normal;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 15px;
+    line-height: 80px;
+    color: black;
+}
+
+.menu2 h2 {
+    font-size: 30px;
+    font-weight: 100;
+    font-style: normal;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 10px;
+    line-height: 80px;
+    color: black;
+}
+
+.accesorios h2{
+    font-size: 45px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Koulen', cursive;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 50px;
+    color: black;
+}
+
+.publicidad1{
+    grid-area: aside;
+    grid-column: 1 / 5;
+    margin-top: 15px;
+}
+
+
+
+
+/*----------------------------MARCAS----------------------------*/
+
+
+/*------------MAIN--------------- */
+
+
+/*--Aplicamos Grid al Main--*/
+
+.grid-container3{
+    display: grid;
+    grid-template-columns: 0.75fr repeat(3,1.5fr);
+    grid-template-rows: auto;
+}
+
+.card4{
+    display: flex;
+    grid-column: 1 / 5;
+}
+
+.menu3 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/canchafutbol.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.menu3 h1 {
+    font-size: 40px;
+    font-weight: 200;
+    font-style: normal;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 15px;
+    line-height: 80px;
+    color: white;
+}
+
+.menu3 h2 {
+    font-size: 30px;
+    font-weight: 100;
+    font-style: normal;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 10px;
+    line-height: 80px;
+    color: white;
+}
+
+.marca h2{
+    font-size: 45px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Koulen', cursive;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 50px;
+    color: black;
+}
+
+
+/*---------------------------------------------AYUDA------------------------------------------*/
+
+
+/*------------MAIN--------------- */
+
+/*--Aplicamos Grid al Main--*/
+
+.grid-container4{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.2fr;
+    grid-template-rows: auto;
+    grid-area: 
+    ". main ."
+    ;
+}
+
+.barranav{
+    position: relative;
+}
+
+.main-ayuda{
+    grid-area: main;
+    grid-column: 2 / 3;
+}
+
+.menu4 {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.menu4 h1 {
+    font-size: 80px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Koulen', cursive;
+    letter-spacing: 6px;
+}
+
+.menu4 h2 {
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Koulen', cursive;
+    letter-spacing: 3px;
+}
+
+.pagos {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pagos h2 {
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    line-height: 100px;
+}
+
+.pagos h3 {
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    line-height: 100px;
+}
+
+.pagos div img {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    border: 2px double black;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px;
+}
+
+.ventajas {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ventajas h2 {
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    line-height: 100px;
+}
+
+.ventajas h3 {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    line-height: 100px;
+}
+
+.ventajas div p {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+}
+
+.ventajas img {
+    width: 200px;
+    height: 150px;
+    padding: 25px;
+}
+
+.ubicacion {
+    background-color: rgba(70, 70, 70, 0.182);
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    margin: 5px;
+    padding: 2px;
+}
+
+.ubicacion h2 {
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    line-height: 100px;
+}
+
+.ubicacion h3 {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    line-height: 100px;
+}
+
+.ubicacion iframe {
+    width: 100%;
+    content: 10px;
+}
+
+.opinion {
+    background-color: rgba(0, 0, 0, 0.247);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.opinion p {
+    padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+/*------MEDIA QUERIES-----*/
+
+/*RESPONSIVE Index/Grid MAX-WIDTH*/
+
+
+@media screen and (max-width:1303px){
+    .grid-container-ofertas{
+        grid-template-columns: 0.5fr repeat(3,1fr);
+        grid-template-rows: 800px;  
+    }
+}
+
+
+@media screen and (max-width:1312px){
+    .grid-container-ofertas{
+        grid-template-columns: 0.5fr repeat(2,1fr);
+    }
+    .grid-items{
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width:748px){
+    .grid-container-ofertas{
+        grid-template-columns:1fr 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    .seccion-ofertas{
+        flex-direction: column;
+    }
+    .primer-item img{
+        width: 200px;
+        height: 150px;
+    }
+    .grid-items div{
+        width: 200px;
+        height: 350px;
+    }
+}
+
+
+@media screen and (max-width:723px){
+    .grid-container-ofertas{
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: auto;
+        }
+    }
+
+
+@media screen and (max-width:593px){
+    .grid-container-ofertas{
+        grid-template-rows: auto;
+    }
+}
+
+
+@media screen and (max-width:496px){
+    .grid-items div{
+        width: 150px;
+        height: 250px;
+    }
+    .grid-items a{
+        font-size: 10px;
+    }
+    .grid-items h3{
+        font-size: 14px;
+    }
+    .grid-items p{
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width:396px){
+    .grid-items div{
+        width: 120px;
+        height: 200px;
+    }
+    .grid-items a{
+        font-size: 9px;
+    }
+    .grid-items h3{
+        font-size: 11px;
+    }
+    .grid-items p{
+        font-size: 11px;
+    }
+    .primer-item img{
+        width: 170px;
+        height: 110px;
+    }
+}
+
+
+/*RESPONSIVE Index/Header MAX-WIDTH*/
+
+
+@media screen and (max-width:991px){
+    #navbarNav a{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width:767px){
+    #navbarNav a{
+        text-align: center;
+    }
+}
+
+
+/*RESPONSIVE Index/Main MAX-WIDTH*/
+
+
+@media screen and (max-width:1183px){
+    .publicidad div{
+        text-align: center;
+    }
+    .publicidad iframe{
+        width: 500px;
+        height: 350px;
+    }
+}
+
+
+@media screen and (max-width:929px){
+    .publicidad div{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:694px){
+    .hero h1{
+        font-size: 30px;
+    }
+    .hero h2{
+        font-size: 20px;
+    }
+    .hero a{
+        font-size: 15px;
+    }
+    section div .carousel-inner img{
+        height: 300px;
+    }
+    .marcas img{
+        width: 110px;
+        height: 80px;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .hero{
+        background-attachment: local;
+    }
+    .publicidad div .p1{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    section div .carousel-inner img{
+        height: 200px;
+    }
+    .marcas img{
+        width: 80px;
+        height: 60px;
+    }
+    .hero h1{
+        font-size: 20px;
+    }
+    .hero h2{
+        font-size: 15px;
+    }
+    .hero a{
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width:365px){
+    .marcas{
+        justify-content: space-around;
+    }
+}
+
+
+
+/*RESPONSIVE Index/Footer MAX-WIDTH*/
+
+
+@media screen and (max-width:720px){
+    .columna2 ul li a{
+        font-size: 22px;
+        font-weight: 500px;
+        font-family: 'Koulen', cursive;
+    }
+    .columna3 div p{
+        font-size: 20px;
+        font-weight: 500px;
+        font-family: 'Koulen', cursive;
+    }
+}
+
+
+@media screen and (max-width:510px){
+    .columna2 ul li a{
+        font-size: 15px;
+    }
+    .columna3 img{
+        width: 20px;
+        height: 20px;
+    }
+    .columna3 div p{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:462px){
+    .columna2 ul li a{
+        font-size: 15px;
+    }
+    .columna3 img{
+        width: 16px;
+        height: 16px;
+    }
+    .columna3 div p{
+        font-size: 15px;
+    }
+    .columna4 img{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+@media screen and (max-width:367px){
+    .columna2 ul li{
+        list-style-type: none;
+        text-align: center;
+    }
+    .columna2 ul li a{
+        font-size: 16px;
+    }
+    .Logopie{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width:383px){
+    footer{
+        width: 100%;
+        height: 20%;
+    }
+}
+
+
+
+/*RESPONSIVE Indumentaria/Header MAX-WIDTH*/
+
+
+@media screen and (max-width:1051px){
+    .grid-container{
+        grid-template-columns: 0.75fr repeat(2,1.5fr);
+        grid-template-rows: auto;
+    }
+}
+
+
+/*RESPONSIVE Indumentaria/Main MAX-WIDTH*/
+
+
+@media screen and (max-width:870px){
+    .menu1 h1{
+        font-size: 20px;
+    }
+    .menu1 h2{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:786px){
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .tarjetas{
+        display:block;
+    }
+    .accordion-item h2{
+        border: 3px solid black;
+        height: 40px;
+        width: 100px;
+        margin-left: 43%;
+    }
+    .publicidad1{
+        flex-direction: column;
+        border: none;
+    }
+    .publicidad1 div{
+        width: 100%;
+        font-size: 20px;
+    }
+    .publicidad1 iframe{
+        padding: 10px;
+        width: 550px;
+        height: 200px;
+    }
+    .menu1 h1{
+        font-size: 30px;
+        line-height: 100px;
+        letter-spacing: normal;
+    }
+    .menu1 h2{
+        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: normal;
+    }
+}
+
+
+@media screen and (max-width:694px){
+    section div .uno img{
+    height: 200px;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .accordion-item h2{
+        margin-left:0px;
+    }
+    .productos{
+        gap: 0;
+    }
+}
+
+
+@media screen and (max-width:559px){
+    .productos{
+        gap: 10px;
+    }
+    .productos div {
+        width: 150px;
+        height: 270px;
+    }
+    
+    .productos img {
+        width: 100%;
+        height: 150px;
+    }
+    
+    .productos h3 {
+        font-size: 10px;
+    }
+    
+    .productos p {
+        font-size: 15px;
+    }
+    
+    .productos a {
+        font-size: 10px;
+        padding: 0;
+    }
+    .publicidad1 iframe{
+        width: 350px;
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .menu1{
+        background-attachment: local;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    section div .uno img{
+    height: 150px;
+    }
+}
+
+
+@media screen and (max-width:369px){
+    .productos div {
+        width: 120px;
+        height: 230px;
+    }
+    
+    .productos img {
+        width: 100%;
+        height: 130px;
+    }
+    
+    .productos h3 {
+        font-size: 10px;
+    }
+    
+    .productos p {
+        font-size: 13px;
+    }
+    
+    .productos a {
+        font-size: 8px;
+    }
+}
+
+
+@media screen and (max-width:383px){
+    .pie{
+        width: 100%;
+        height: 20%;
+    }
+}
+
+
+@media screen and (max-width:350px){
+    .accordion-item h2{
+        margin-left: 35%;
+    }
+}
+
+
+/*RESPONSIVE Accesorios/Main MAX-WIDTH*/
+
+
+@media screen and (max-width:1051px){
+    .grid-container2{
+        grid-template-columns: 0.75fr repeat(2,1.5fr);
+        grid-template-rows: auto;
+    }
+}
+
+@media screen and (max-width:823px){
+    .menu2 h1{
+        font-size: 35px;
+    }
+    .menu2 h2{
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width:786px){
+    .grid-container2{
+        grid-template-columns: 1fr 1fr;
+    }
+    .card2{
+        display: block;
+    }
+    .card3{
+        grid-column: 1 / 5;
+    }
+}
+
+
+@media screen and (max-width:530px){
+    .menu2 h1{
+        font-size: 30px;
+    }
+    .menu2 h2{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .menu2{
+        background-attachment: local;
+    }
+}
+
+
+@media screen and (max-width:390px){
+    .menu2 h1{
+        font-size: 20px;
+    }
+    .menu2 h2{
+        font-size: 15px;
+    }
+}
+
+
+
+/*RESPONSIVE Marcas/Main MAX-WIDTH*/
+
+
+@media screen and (max-width:1051px){
+    .grid-container3{
+        grid-template-columns: 0.75fr repeat(2,1.5fr);
+        grid-template-rows: auto;
+    }
+}
+
+
+@media screen and (max-width:870px){
+    .menu3 h1{
+        font-size: 35px;
+    }
+    .menu3 h2{
+        font-size: 22px;
+    }
+}
+
+
+@media screen and (max-width:786px){
+    .grid-container3{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    .card4{
+        display: block;
+    }
+    .menu3 h1{
+        font-size: 25px;
+    }
+    .menu3 h2{
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width:700px){
+    .menu3 h1{
+        font-size: 30px;
+    }
+    .menu3 h2{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .menu3{
+        background-attachment: local;
+    }
+}
+
+
+
+/*RESPONSIVE Ayuda/Grid MAX-WIDTH*/
+
+
+@media screen and (max-width:1208px){
+    .menu4 h1{
+        font-size: 70px;
+        text-decoration: underline;
+    }
+    .pagos h2{
+        font-size: 30px;
+        line-height: 80px;
+    }
+    .pagos h3{
+        font-size: 20px;
+        line-height: 80px;
+    }
+    .pagos div img{
+        width: 150px;
+        height: 80px;
+    }
+    .ventajas h2{
+        font-size: 35px;
+    }
+    .ventajas h3{
+        font-size: 20px;
+    }
+    .ventajas img{
+        width: 170px;
+        height: 120px;
+    }
+    .ventajas div p{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .ubicacion h2{
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+
+@media screen and (max-width:928px){
+    .menu4 h1{
+        font-size: 50px;
+        text-decoration: underline;
+    }
+    .pagos h2{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .pagos h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .pagos div img{
+        width: 120px;
+        height: 70px;
+    }
+    .ventajas h2{
+        font-size: 30px;
+        line-height: 70px;
+    }
+    .ventajas h3{
+        font-size: 15px;
+        line-height: 70px;
+    }
+    .ventajas img{
+        width: 110px;
+        height: 110px;
+    }
+}
+
+
+@media screen and (max-width:760px){
+    .pagos div img{
+        width: 100px;
+        height: 60px;
+    }
+    .ubicacion h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .ubicacion h3{
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+
+@media screen and (max-width:668px){
+    .menu4 h1{
+        font-size: 40px;
+        text-decoration: underline;
+    }
+}
+
+
+@media screen and (max-width:584px){
+    .ventajas h2{
+        line-height: 30px;
+    }
+    .ventajas h3{
+        line-height: 50px;
+    }
+    .ubicacion iframe{
+        height: 200px;
+    }
+    .opinion{
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width:384px){
+    .ventajas h3{
+        line-height: 25px;
+    }
+}
