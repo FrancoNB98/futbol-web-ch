@@ -24,7 +24,7 @@ main{
             font-family: 'Alfa Slab One', cursive;
             letter-spacing: 15px;
             line-height: 100px;
-            color: $color-blanco;
+            color: $color-principal;
         }
         h2{
             font-size: 30px;
@@ -33,7 +33,7 @@ main{
             font-family: 'Alfa Slab One', cursive;
             letter-spacing: 10px;
             line-height: 100px;
-            color: $color-blanco;
+            color: $color-principal;
         }
         a{
             text-decoration: none;
@@ -242,7 +242,7 @@ main{
             font-family: 'Alfa Slab One', cursive;
             letter-spacing: 15px;
             line-height: 80px;
-            color: white;
+            color: $color-principal;
         }
         h2{
             font-size: 30px;
@@ -251,7 +251,7 @@ main{
             font-family: 'Alfa Slab One', cursive;
             letter-spacing: 10px;
             line-height: 80px;
-            color: white;
+            color: $color-principal;
         }
     }
     section{
@@ -310,7 +310,7 @@ main{
                     width: 250px;
                     height: 360px;
                     letter-spacing: normal;
-                    border: 1px solid lightsteelblue;
+                    border: 1px solid $color-celeste;
                     margin: 20px 10px 15px 20px;
                     text-align: center;
                     border-radius: 15px;
@@ -338,8 +338,8 @@ main{
                     }
                     a{
                         text-decoration: none;
-                        background-color: black;
-                        color: white;
+                        background-color: $color-negro;
+                        color: $color-blanco;
                     }
                 }
             }
