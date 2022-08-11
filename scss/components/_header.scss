@@ -1,3 +1,5 @@
+@import "../base/variables";
+
 /*--Header--*/
 header{
     .navbar{
@@ -14,7 +16,7 @@ header{
             }
             #navbarNav{
                 a{
-                    color: white;
+                    color: $color-blanco;
                     font-size: 22px;
                     transition: 1.5s;
                     &:hover{
