@@ -521,7 +521,7 @@ section div .uno img{
     color: white;
 }
 
-.publicidad1 {
+.publicidades {
     background-color: black;
     padding: 20px;
     display: flex;
@@ -531,12 +531,12 @@ section div .uno img{
     border: 1px solid rgb(255, 255, 255);
 }
 
-.publicidad1 iframe {
+.publicidades iframe {
     width: 500px;
     height: 260px;
 }
 
-.publicidad1 div {
+.publicidades div {
     color: white;
     width: 50%;
     font-size: 25px;

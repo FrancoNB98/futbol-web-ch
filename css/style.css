@@ -322,7 +322,7 @@ main .grid-container {
           background-color: black;
           color: white; }
 
-main .publicidad1 {
+main .publicidades {
   background-color: black;
   padding: 20px;
   display: flex;
@@ -330,10 +330,10 @@ main .publicidad1 {
   flex-direction: row-reverse;
   align-items: center;
   border: 3px solid rgba(54, 54, 200, 0.894); }
-  main .publicidad1 iframe {
+  main .publicidades iframe {
     width: 500px;
     height: 260px; }
-  main .publicidad1 div {
+  main .publicidades div {
     color: white;
     width: 50%;
     font-size: 25px;
