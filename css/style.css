@@ -572,13 +572,13 @@ footer {
     height: 40px;
     width: 100px;
     margin-left: 43%; }
-  main .publicidad1 {
+  main .publicidades {
     flex-direction: column;
     border: none; }
-  main .publicidad1 div {
+  main .publicidades div {
     width: 100%;
     font-size: 20px; }
-  main .publicidad1 iframe {
+  main .publicidades iframe {
     padding: 10px;
     width: 550px;
     height: 200px; }
@@ -630,7 +630,7 @@ footer {
     font-size: 15px; }
   main .grid-container .tarjetas .productos div a {
     font-size: 10px; }
-  main .publicidad1 iframe {
+  main .publicidades iframe {
     width: 350px;
     height: 200px; } }
 
