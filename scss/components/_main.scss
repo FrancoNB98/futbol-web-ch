@@ -325,11 +325,13 @@ main{
                         border-top-right-radius: 15px;
                     }
                     h3{
+                        padding: 3px;
                         font-size: 16px;
                         font-weight: 600;
                         font-family: 'Koulen', cursive;
                     }
                     p{
+                        margin: 3px;
                         font-size: 18px;
                         font-weight: 600;
                         font-family: 'Koulen', cursive;
@@ -337,7 +339,6 @@ main{
                     a{
                         text-decoration: none;
                         background-color: black;
-                        padding: 5px;
                         color: white;
                     }
                 }
@@ -351,8 +352,11 @@ main{
         justify-content: space-around;
         flex-direction: row-reverse;
         align-items: center;
-        border: 10px solid red;
-        // border: 1px solid rgb(255, 255, 255);
+        border: 3px solid rgba(54, 54, 200, 0.894);
+        iframe{
+            width: 500px;
+            height: 260px;
+        }
         div{
             color: white;
             width: 50%;

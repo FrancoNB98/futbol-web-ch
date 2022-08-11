@@ -308,17 +308,18 @@ main .grid-container {
           border-top-left-radius: 15px;
           border-top-right-radius: 15px; }
         main .grid-container .tarjetas .productos div h3 {
+          padding: 3px;
           font-size: 16px;
           font-weight: 600;
           font-family: 'Koulen', cursive; }
         main .grid-container .tarjetas .productos div p {
+          margin: 3px;
           font-size: 18px;
           font-weight: 600;
           font-family: 'Koulen', cursive; }
         main .grid-container .tarjetas .productos div a {
           text-decoration: none;
           background-color: black;
-          padding: 5px;
           color: white; }
 
 main .publicidad1 {
@@ -328,7 +329,10 @@ main .publicidad1 {
   justify-content: space-around;
   flex-direction: row-reverse;
   align-items: center;
-  border: 10px solid red; }
+  border: 3px solid rgba(54, 54, 200, 0.894); }
+  main .publicidad1 iframe {
+    width: 500px;
+    height: 260px; }
   main .publicidad1 div {
     color: white;
     width: 50%;
@@ -376,43 +380,6 @@ footer {
     transition: 1s; }
     footer .columna4 img:hover {
       transform: scale(1.2); }
-
-/*INDUMENTARIA*/
-/*FOOTER*/
-.pie {
-  background: linear-gradient(161deg, black 25%, #191717 50%, black 75%);
-  height: 200px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 15px; }
-  .pie div .Logopie {
-    width: 100px;
-    height: 100px; }
-  .pie .columna2 ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-weight: 200;
-    font-family: 'Koulen', cursive; }
-  .pie .columna3 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column; }
-    .pie .columna3 img {
-      width: 25px;
-      height: 25px; }
-    .pie .columna3 div p {
-      font-size: 15px;
-      font-weight: 200;
-      font-family: 'Koulen', cursive;
-      color: white; }
-  .pie .columna4 {
-    display: flex;
-    width: 40px;
-    height: 40px; }
 
 /*------MEDIA QUERIES-----*/
 /*RESPONSIVE Index/Grid MAX-WIDTH*/
@@ -581,3 +548,114 @@ footer {
   footer {
     width: 100%;
     height: 20%; } }
+
+/*RESPONSIVE Indumentaria/Header MAX-WIDTH*/
+@media screen and (max-width: 1051px) {
+  main .grid-container {
+    grid-template-columns: 0.75fr repeat(2, 1.5fr);
+    grid-template-rows: auto; } }
+
+/*RESPONSIVE Indumentaria/Main MAX-WIDTH*/
+@media screen and (max-width: 870px) {
+  main .menu1 h1 {
+    font-size: 20px; }
+  main .menu1 h2 {
+    font-size: 15px; } }
+
+@media screen and (max-width: 786px) {
+  main .grid-container {
+    grid-template-columns: 1fr 1fr; }
+  main .grid-container .tarjetas {
+    display: block; }
+  main .grid-container .tarjetas .accordion-item h2 {
+    border: 3px solid black;
+    height: 40px;
+    width: 100px;
+    margin-left: 43%; }
+  main .publicidad1 {
+    flex-direction: column;
+    border: none; }
+  main .publicidad1 div {
+    width: 100%;
+    font-size: 20px; }
+  main .publicidad1 iframe {
+    padding: 10px;
+    width: 550px;
+    height: 200px; }
+  main .menu1 h1 {
+    font-size: 30px;
+    line-height: 100px;
+    letter-spacing: normal; }
+  main .menu1 h2 {
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: normal; } }
+
+@media screen and (max-width: 694px) {
+  main section div .uno img {
+    height: 200px; } }
+
+@media screen and (max-width: 600px) {
+  main .grid-container .tarjetas .accordion-item h2 {
+    margin-left: 0px; }
+  main .grid-container .tarjetas .productos {
+    gap: 0; }
+  main .grid-container .tarjetas .productos div {
+    width: 180px;
+    height: 280px; }
+  main .grid-container .tarjetas .productos div img {
+    width: 100%;
+    height: 150px; }
+  main .grid-container .tarjetas .productos div h3 {
+    font-size: 15px; }
+  main .grid-container .tarjetas .productos div p {
+    font-size: 20px; }
+  main .grid-container .tarjetas .productos div a {
+    font-size: 15px;
+    margin: 1px;
+    padding: 5px; } }
+
+@media screen and (max-width: 559px) {
+  main .grid-container .tarjetas .productos {
+    gap: 10px; }
+  main .grid-container .tarjetas .productos div {
+    width: 150px;
+    height: 250px; }
+  main .grid-container .tarjetas .productos div img {
+    width: 100%;
+    height: 150px; }
+  main .grid-container .tarjetas .productos div h3 {
+    font-size: 10px; }
+  main .grid-container .tarjetas .productos div p {
+    font-size: 15px; }
+  main .grid-container .tarjetas .productos div a {
+    font-size: 10px; }
+  main .publicidad1 iframe {
+    width: 350px;
+    height: 200px; } }
+
+@media screen and (max-width: 500px) {
+  main .menu1 {
+    background-attachment: local; } }
+
+@media screen and (max-width: 400px) {
+  main section div .uno img {
+    height: 150px; } }
+
+@media screen and (max-width: 369px) {
+  main .grid-container .tarjetas .productos div {
+    width: 120px;
+    height: 230px; }
+  main .grid-container .tarjetas .productos div img {
+    width: 100%;
+    height: 130px; }
+  main .grid-container .tarjetas .productos div h3 {
+    font-size: 10px; }
+  main .grid-container .tarjetas .productos div p {
+    font-size: 13px; }
+  main .grid-container .tarjetas .productos div a {
+    font-size: 8px; } }
+
+@media screen and (max-width: 350px) {
+  main .grid-container .tarjetas .accordion-item h2 {
+    margin-left: 35%; } }

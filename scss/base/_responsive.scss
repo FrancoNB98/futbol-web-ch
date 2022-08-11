@@ -262,3 +262,185 @@
         height: 20%;
     }
 }
+
+
+
+/*RESPONSIVE Indumentaria/Header MAX-WIDTH*/
+
+
+@media screen and (max-width:1051px){
+    main .grid-container{
+        grid-template-columns: 0.75fr repeat(2,1.5fr);
+        grid-template-rows: auto;
+    }
+}
+
+
+/*RESPONSIVE Indumentaria/Main MAX-WIDTH*/
+
+
+@media screen and (max-width:870px){
+    main .menu1 h1{
+        font-size: 20px;
+    }
+    main .menu1 h2{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:786px){
+    main .grid-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    main .grid-container .tarjetas{
+        display:block;
+    }
+    main .grid-container .tarjetas .accordion-item h2{
+        border: 3px solid black;
+        height: 40px;
+        width: 100px;
+        margin-left: 43%;
+    }
+    main .publicidad1{
+        flex-direction: column;
+        border: none;
+    }
+    main .publicidad1 div{
+        width: 100%;
+        font-size: 20px;
+    }
+    main .publicidad1 iframe{
+        padding: 10px;
+        width: 550px;
+        height: 200px;
+    }
+    main .menu1 h1{
+        font-size: 30px;
+        line-height: 100px;
+        letter-spacing: normal;
+    }
+    main .menu1 h2{
+        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: normal;
+    }
+}
+
+
+@media screen and (max-width:694px){
+    main section div .uno img{
+    height: 200px;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    main .grid-container .tarjetas .accordion-item h2{
+        margin-left:0px;
+    }
+    main .grid-container .tarjetas .productos{
+        gap: 0;
+    }
+    main .grid-container .tarjetas .productos div {
+        width: 180px;
+        height: 280px;
+    }
+    
+    main .grid-container .tarjetas .productos div img {
+        width: 100%;
+        height: 150px;
+    }
+    
+    main .grid-container .tarjetas .productos div h3 {
+        font-size: 15px;
+    }
+    
+    main .grid-container .tarjetas .productos div p {
+        font-size: 20px;
+    }
+    
+    main .grid-container .tarjetas .productos div a {
+        font-size: 15px;
+        margin: 1px;
+        padding: 5px;
+    }
+}
+
+
+@media screen and (max-width:559px){
+    main .grid-container .tarjetas .productos{
+        gap: 10px;
+    }
+    main .grid-container .tarjetas .productos div {
+        width: 150px;
+        height: 250px;
+    }
+    
+    main .grid-container .tarjetas .productos div img {
+        width: 100%;
+        height: 150px;
+    }
+    
+    main .grid-container .tarjetas .productos div h3 {
+        font-size: 10px;
+    }
+    
+    main .grid-container .tarjetas .productos div p {
+        font-size: 15px;
+    }
+    
+    main .grid-container .tarjetas .productos div a {
+        font-size: 10px;
+    }
+    main .publicidad1 iframe{
+        width: 350px;
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    main .menu1{
+        background-attachment: local;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    main section div .uno img{
+    height: 150px;
+    }
+}
+
+
+@media screen and (max-width:369px){
+    main .grid-container .tarjetas .productos div {
+        width: 120px;
+        height: 230px;
+    }
+    
+    main .grid-container .tarjetas .productos div img {
+        width: 100%;
+        height: 130px;
+    }
+    
+    main .grid-container .tarjetas .productos div h3 {
+        font-size: 10px;
+    }
+    
+    main .grid-container .tarjetas .productos div p {
+        font-size: 13px;
+    }
+    
+    main .grid-container .tarjetas .productos div a {
+        font-size: 8px;
+    }
+}
+
+
+@media screen and (max-width:350px){
+    main .grid-container .tarjetas .accordion-item h2{
+        margin-left: 35%;
+    }
+}
