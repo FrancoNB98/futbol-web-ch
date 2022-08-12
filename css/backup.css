@@ -612,12 +612,60 @@ section div .uno img{
 .grid-container2{
     display: grid;
     grid-template-columns: 0.75fr repeat(3,1.5fr);
-    grid-template-rows: auto
+    grid-template-rows: auto;
 }
 
 .card2{
     display: flex;
     grid-column: 1 / 5;
+}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.productos div {
+    width: 250px;
+    height: 360px;
+    letter-spacing: normal;
+    border: 1px solid lightsteelblue;
+    margin: 20px 10px 15px 20px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: gainsboro;
+    box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+}
+
+.productos img {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.productos h3 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Koulen', cursive;
+}
+
+.productos p {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Koulen', cursive;
+}
+
+.productos div a{
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    color: white;
 }
 
 .card3{
@@ -810,9 +858,9 @@ section div .uno img{
     ;
 }
 
-.barranav{
+/* .barranav{
     position: relative;
-}
+} */
 
 .main-ayuda{
     grid-area: main;

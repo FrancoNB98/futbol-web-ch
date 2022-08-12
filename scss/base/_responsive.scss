@@ -444,3 +444,524 @@
         margin-left: 35%;
     }
 }
+
+
+/*RESPONSIVE Accesorios/Main MAX-WIDTH*/
+
+
+@media screen and (max-width:1051px){
+    main .grid-container2{
+        grid-template-columns: 0.75fr repeat(2,1.5fr);
+        grid-template-rows: auto;
+    }
+}
+
+@media screen and (max-width:870px){
+    main .menu2 h1{
+        font-size: 20px;
+    }
+    main .menu2 h2{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:786px){
+    main .grid-container2{
+        grid-template-columns: 1fr 1fr;
+    }
+    main .grid-container2 .card2 .accordion-item h2{
+        border: 3px solid black;
+        height: 40px;
+        width: 100px;
+        margin-left: 43%;
+    }
+    main .grid-container2 .card2{
+        display: block;
+    }
+    main .grid-container2 .card3{
+        grid-column: 1 / 5;
+    }
+    main .publicidades{
+        flex-direction: column;
+        border: none;
+    }
+    main .publicidades div{
+        width: 100%;
+        font-size: 20px;
+    }
+    main .publicidades iframe{
+        padding: 10px;
+        width: 550px;
+        height: 200px;
+    }
+    main .menu2 h1{
+        font-size: 30px;
+        line-height: 100px;
+        letter-spacing: normal;
+    }
+    main .menu2 h2{
+        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: normal;
+    }
+    main .grid-container2 .card3 .productos3{
+        justify-content: space-evenly;
+    }
+}
+
+
+@media screen and (max-width:629px){
+    main .grid-container2 .card3 .productos3{
+        gap: none;
+    }
+    main .grid-container2 .card3 .productos3 div {
+        width: 220px;
+        height: 300px;
+    }
+    
+    main .grid-container2 .card3 .productos3 div img {
+        width: 100%;
+        height: 180px;
+    }
+    
+    main .grid-container2 .card3 .productos3 div h3 {
+        font-size: 16px;
+    }
+    
+    main .grid-container2 .card3 .productos3 div p {
+        font-size: 16px;
+    }
+    
+    main .grid-container2 .card3 .productos3 div a {
+        font-size: 15px;
+        margin: 5px;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    main .grid-container2 .card2 .accordion-item h2{
+        margin-left:0px;
+    }
+    main .grid-container .card2 .productos{
+        gap: 0;
+    }
+    main .grid-container2 .card2 .productos div {
+        width: 180px;
+        height: 280px;
+    }
+    
+    main .grid-container2 .card2 .productos div img {
+        width: 100%;
+        height: 150px;
+    }
+    
+    main .grid-container2 .card2 .productos div h3 {
+        font-size: 15px;
+    }
+    
+    main .grid-container2 .card2 .productos div p {
+        font-size: 20px;
+    }
+    
+    main .grid-container2 .card2 .productos div a {
+        font-size: 15px;
+        margin: 1px;
+        padding: 5px;
+    }
+}
+
+
+@media screen and (max-width:561px){
+    main .grid-container .tarjetas .card2{
+        gap: 10px;
+    }
+    main .grid-container2 .card2 .productos div {
+        width: 150px;
+        height: 250px;
+    }
+    
+    main .grid-container2 .card2 .productos div img {
+        width: 100%;
+        height: 150px;
+    }
+    
+    main .grid-container2 .card2 .productos div h3 {
+        font-size: 10px;
+    }
+    
+    main .grid-container2 .card2 .productos div p {
+        font-size: 15px;
+    }
+    
+    main .grid-container2 .card2 .productos div a {
+        font-size: 10px;
+    }
+    main .publicidades iframe{
+        width: 350px;
+        height: 200px;
+    }
+    main .grid-container2 .card3 .productos3{
+        gap: 15px;
+    }
+    main .grid-container2 .card3 .productos3 div {
+        width: 150px;
+        height: 250px;
+    }
+    
+    main .grid-container2 .card3 .productos3 div img {
+        width: 100%;
+        height: 150px;
+    }
+    
+    main .grid-container2 .card3 .productos3 div h3 {
+        font-size: 10px;
+    }
+    
+    main .grid-container2 .card3 .productos3 div p {
+        font-size: 15px;
+    }
+    
+    main .grid-container2 .card3 .productos3 div a {
+        font-size: 10px;
+        margin: 1px;
+        padding: 5px;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    main .menu2{
+        background-attachment: local;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    main .grid-container2 .card2 .productos div {
+        width: 120px;
+        height: 230px;
+    }
+    
+    main .grid-container2 .card2 .productos div img {
+        width: 100%;
+        height: 130px;
+    }
+    
+    main .grid-container2 .card2 .productos div h3 {
+        font-size: 13px;
+        margin: 2px;
+    }
+    
+    main .grid-container2 .card2 .productos div p {
+        font-size: 15px;
+        margin: 2px;
+    }
+    
+    main .grid-container2 .card2 .productos div a {
+        font-size: 10x;
+        margin: 2px;
+    }
+    main .grid-container2 .card3 .productos3 div {
+        width: 120px;
+        height: 230px;
+    }
+    
+    main .grid-container2 .card3 .productos3 div img {
+        width: 100%;
+        height: 130px;
+    }
+    
+    main .grid-container2 .card3 .productos3 div h3 {
+        font-size: 10px;
+        margin: 2px;
+    }
+    
+    main .grid-container2 .card3 .productos3 div p {
+        font-size: 15px;
+        margin: 2px;
+    }
+    
+    main .grid-container2 .card3 .productos3 div a {
+        font-size: 10px;
+        margin: 2px;
+    }
+}
+
+
+@media screen and (max-width:530px){
+    main .menu2 h1{
+        font-size: 30px;
+    }
+    main .menu2 h2{
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width:390px){
+    main .menu2 h1{
+        font-size: 20px;
+    }
+    main .menu2 h2{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:350px){
+    main .grid-container2 .card2 .accordion-item h2{
+        margin-left: 35%;
+    }
+}
+
+
+/*RESPONSIVE Marcas/Main MAX-WIDTH*/
+
+
+@media screen and (max-width:786px){
+    main .grid-container3{
+        grid-template-columns: 1fr 1fr;
+    }
+    main .grid-container3 .card4{
+        display:block;
+    }
+    main .grid-container3 .card4 .accordion-item h2{
+        border: 3px solid black;
+        height: 40px;
+        width: 100px;
+        margin-left: 43%;
+    }
+    main .menu3 h1{
+        font-size: 30px;
+        line-height: 100px;
+        letter-spacing: normal;
+    }
+    main .menu3 h2{
+        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: normal;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    main .grid-container3 .card4 .accordion-item h2{
+        margin-left:0px;
+    }
+    main .grid-container3 .card4 .productos{
+        gap: 0;
+    }
+    main .grid-container3 .card4 .productos div {
+        width: 180px;
+        height: 280px;
+    }
+    
+    main .grid-container3 .card4 .productos div img {
+        width: 100%;
+        height: 150px;
+    }
+    
+    main .grid-container3 .card4 .productos div h3 {
+        font-size: 15px;
+    }
+    
+    main .grid-container3 .card4 .productos div p {
+        font-size: 20px;
+    }
+    
+    main .grid-container3 .card4 .productos div a {
+        font-size: 15px;
+        margin: 1px;
+        padding: 5px;
+    }
+}
+
+
+@media screen and (max-width:559px){
+    main .grid-container3 .card4 .productos{
+        gap: 10px;
+    }
+    main .grid-container3 .card4 .productos div {
+        width: 150px;
+        height: 250px;
+    }
+    
+    main .grid-container3 .card4 .productos div img {
+        width: 100%;
+        height: 150px;
+    }
+    
+    main .grid-container3 .card4 .productos div h3 {
+        font-size: 10px;
+    }
+    
+    main .grid-container3 .card4 .productos div p {
+        font-size: 15px;
+    }
+    
+    main .grid-container3 .card4 .productos div a {
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    main .menu3{
+        background-attachment: local;
+    }
+}
+
+
+@media screen and (max-width:369px){
+    main .grid-container3 .card4 .productos div {
+        width: 120px;
+        height: 230px;
+    }
+    
+    main .grid-container3 .card4 .productos div img {
+        width: 100%;
+        height: 130px;
+    }
+    
+    main .grid-container3 .card4 .productos div h3 {
+        font-size: 10px;
+    }
+    
+    main .grid-container3 .card4 .productos div p {
+        font-size: 13px;
+    }
+    
+    main .grid-container3 .card4 .productos div a {
+        font-size: 8px;
+    }
+}
+
+
+@media screen and (max-width:350px){
+    main .grid-container3 .card4 .accordion-item h2{
+        margin-left: 35%;
+    }
+}
+
+
+
+/*RESPONSIVE Ayuda/Grid MAX-WIDTH*/
+
+
+@media screen and (max-width:1208px){
+    main .grid-container4 .main-ayuda .menu4 h1{
+        font-size: 70px;
+        text-decoration: underline;
+    }
+    main .grid-container4 .main-ayuda .pagos h2{
+        font-size: 30px;
+        line-height: 80px;
+    }
+    main .grid-container4 .main-ayuda .pagos h3{
+        font-size: 20px;
+        line-height: 80px;
+    }
+    main .grid-container4 .main-ayuda .pagos div img{
+        width: 150px;
+        height: 80px;
+    }
+    main .grid-container4 .main-ayuda .ventajas h2{
+        font-size: 35px;
+    }
+    main .grid-container4 .main-ayuda .ventajas h3{
+        font-size: 20px;
+    }
+    main .grid-container4 .main-ayuda .ventajas img{
+        width: 170px;
+        height: 120px;
+    }
+    main .grid-container4 .main-ayuda .ventajas div p{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    main .grid-container4 .main-ayuda .ubicacion h2{
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+
+@media screen and (max-width:928px){
+    main .grid-container4 .main-ayuda .menu4 h1{
+        font-size: 50px;
+        text-decoration: underline;
+    }
+    main .grid-container4 .main-ayuda .pagos h2{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    main .grid-container4 .main-ayuda .pagos h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    main .grid-container4 .main-ayuda .pagos div img{
+        width: 120px;
+        height: 70px;
+    }
+    main .grid-container4 .main-ayuda .ventajas h2{
+        font-size: 30px;
+        line-height: 70px;
+    }
+    main .grid-container4 .main-ayuda .ventajas h3{
+        font-size: 15px;
+        line-height: 70px;
+    }
+    main .grid-container4 .main-ayuda .ventajas img{
+        width: 110px;
+        height: 110px;
+    }
+}
+
+
+@media screen and (max-width:760px){
+    main .grid-container4 .main-ayuda .pagos div img{
+        width: 100px;
+        height: 60px;
+    }
+    main .grid-container4 .main-ayuda .ubicacion h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    main .grid-container4 .main-ayuda .ubicacion h3{
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+
+@media screen and (max-width:668px){
+    main .grid-container4 .main-ayuda .menu4 h1{
+        font-size: 40px;
+        text-decoration: underline;
+    }
+}
+
+
+@media screen and (max-width:584px){
+    main .grid-container4 .main-ayuda .ventajas h2{
+        line-height: 30px;
+    }
+    main .grid-container4 .main-ayuda .ventajas h3{
+        line-height: 50px;
+    }
+    main .grid-container4 .main-ayuda .ubicacion iframe{
+        height: 200px;
+    }
+    main .grid-container4 .main-ayuda .opinion{
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width:384px){
+    main .grid-container4 .main-ayuda .ventajas h3{
+        line-height: 25px;
+    }
+}

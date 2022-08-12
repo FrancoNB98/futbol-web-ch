@@ -342,10 +342,380 @@ main .publicidades {
     font-weight: 200;
     text-align: center; }
 
+/*---ACCESORIOS---*/
+main .menu2 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap; }
+  main .menu2 h1 {
+    font-size: 40px;
+    font-weight: 200;
+    font-style: normal;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 15px;
+    line-height: 80px;
+    color: white; }
+  main .menu2 h2 {
+    font-size: 30px;
+    font-weight: 100;
+    font-style: normal;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 10px;
+    line-height: 80px;
+    color: white; }
+
+main .accesorios h2 {
+  font-size: 45px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Koulen', cursive;
+  text-align: center;
+  letter-spacing: 5px;
+  line-height: 50px;
+  color: black; }
+
+main .grid-container2 {
+  display: grid;
+  grid-template-columns: 0.75fr repeat(3, 1.5fr);
+  grid-template-rows: auto; }
+  main .grid-container2 .card2 {
+    display: flex;
+    grid-column: 1 / 5; }
+    main .grid-container2 .card2 .accordion-item h2 {
+      font-size: 30px;
+      font-family: 'Koulen', cursive;
+      text-align: center;
+      color: black; }
+    main .grid-container2 .card2 .accordion-item .accordion-button {
+      font-size: 20px;
+      font-family: 'Koulen', cursive; }
+    main .grid-container2 .card2 .accordion-item .accordion-body {
+      font-size: 15px;
+      font-family: 'Koulen', cursive; }
+    main .grid-container2 .card2 .productos {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+      gap: 40px; }
+      main .grid-container2 .card2 .productos div {
+        width: 250px;
+        height: 360px;
+        letter-spacing: normal;
+        border: 1px solid lightsteelblue;
+        margin: 20px 10px 15px 20px;
+        text-align: center;
+        border-radius: 15px;
+        background-color: gainsboro;
+        box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75); }
+        main .grid-container2 .card2 .productos div img {
+          width: 100%;
+          height: 250px;
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px; }
+        main .grid-container2 .card2 .productos div h3 {
+          padding: 3px;
+          font-size: 16px;
+          font-weight: 600;
+          font-family: 'Koulen', cursive; }
+        main .grid-container2 .card2 .productos div p {
+          margin: 3px;
+          font-size: 18px;
+          font-weight: 600;
+          font-family: 'Koulen', cursive; }
+        main .grid-container2 .card2 .productos div a {
+          text-decoration: none;
+          background-color: black;
+          color: white; }
+  main .grid-container2 .card3 {
+    grid-column: 2 / 5; }
+    main .grid-container2 .card3 .productos3 {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 40px 11%; }
+      main .grid-container2 .card3 .productos3 div {
+        width: 250px;
+        height: 360px;
+        letter-spacing: normal;
+        border: 1px solid lightsteelblue;
+        margin: 20px 10px 15px 20px;
+        text-align: center;
+        border-radius: 15px;
+        background-color: gainsboro;
+        box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75); }
+        main .grid-container2 .card3 .productos3 div img {
+          width: 100%;
+          height: 250px;
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px; }
+        main .grid-container2 .card3 .productos3 div h3 {
+          padding: 3px;
+          font-size: 16px;
+          font-weight: 600;
+          font-family: 'Koulen', cursive; }
+        main .grid-container2 .card3 .productos3 div p {
+          margin: 3px;
+          font-size: 18px;
+          font-weight: 600;
+          font-family: 'Koulen', cursive; }
+        main .grid-container2 .card3 .productos3 div a {
+          text-decoration: none;
+          background-color: black;
+          color: white; }
+
+main section .publicidades {
+  grid-column: 1 / 5;
+  margin-top: 15px; }
+
+/*--MARCAS--*/
+main .menu3 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/canchafutbol.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap; }
+  main .menu3 h1 {
+    font-size: 40px;
+    font-weight: 200;
+    font-style: normal;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 15px;
+    line-height: 80px;
+    color: white; }
+  main .menu3 h2 {
+    font-size: 30px;
+    font-weight: 100;
+    font-style: normal;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 10px;
+    line-height: 80px;
+    color: white; }
+
+main .marca h2 {
+  font-size: 45px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Koulen', cursive;
+  text-align: center;
+  letter-spacing: 5px;
+  line-height: 50px;
+  color: black; }
+
+main .grid-container3 {
+  display: grid;
+  grid-template-columns: 1fr repeat(3, 1.5fr);
+  grid-template-rows: auto; }
+  main .grid-container3 .card4 {
+    grid-column: 1/5;
+    display: flex; }
+    main .grid-container3 .card4 .accordion-item h2 {
+      font-size: 30px;
+      font-family: 'Koulen', cursive;
+      text-align: center;
+      color: black; }
+    main .grid-container3 .card4 .accordion-item .accordion-button {
+      font-size: 20px;
+      font-family: 'Koulen', cursive; }
+    main .grid-container3 .card4 .accordion-item .accordion-body {
+      font-size: 15px;
+      font-family: 'Koulen', cursive; }
+    main .grid-container3 .card4 .productos {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+      gap: 40px; }
+      main .grid-container3 .card4 .productos div {
+        width: 250px;
+        height: 360px;
+        letter-spacing: normal;
+        border: 1px solid lightsteelblue;
+        margin: 20px 10px 15px 20px;
+        text-align: center;
+        border-radius: 15px;
+        background-color: gainsboro;
+        box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75); }
+        main .grid-container3 .card4 .productos div img {
+          width: 100%;
+          height: 250px;
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px; }
+        main .grid-container3 .card4 .productos div h3 {
+          padding: 3px;
+          font-size: 16px;
+          font-weight: 600;
+          font-family: 'Koulen', cursive; }
+        main .grid-container3 .card4 .productos div p {
+          margin: 3px;
+          font-size: 18px;
+          font-weight: 600;
+          font-family: 'Koulen', cursive; }
+        main .grid-container3 .card4 .productos div a {
+          text-decoration: none;
+          background-color: black;
+          color: white; }
+
+/*--AYUDA--*/
+main .grid-container4 {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 0.2fr;
+  grid-template-rows: auto;
+  grid-area: ". main ."; }
+  main .grid-container4 .main-ayuda {
+    grid-area: main;
+    grid-column: 2 / 3; }
+    main .grid-container4 .main-ayuda .menu4 {
+      width: 100%;
+      text-align: center;
+      padding: 0;
+      margin: 2px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap; }
+      main .grid-container4 .main-ayuda .menu4 h1 {
+        font-size: 80px;
+        font-weight: 400;
+        font-style: normal;
+        font-family: 'Koulen', cursive;
+        letter-spacing: 6px; }
+      main .grid-container4 .main-ayuda .menu4 h2 {
+        font-size: 30px;
+        font-weight: 400;
+        font-style: normal;
+        font-family: 'Koulen', cursive;
+        letter-spacing: 3px; }
+    main .grid-container4 .main-ayuda .pagos {
+      width: 100%;
+      padding: 5px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      main .grid-container4 .main-ayuda .pagos h2 {
+        font-size: 40px;
+        font-weight: 400;
+        font-style: normal;
+        font-family: 'Lato', sans-serif;
+        line-height: 100px; }
+      main .grid-container4 .main-ayuda .pagos h3 {
+        font-size: 25px;
+        font-weight: 400;
+        font-style: normal;
+        font-family: 'Lato', sans-serif;
+        line-height: 100px; }
+      main .grid-container4 .main-ayuda .pagos div img {
+        width: 200px;
+        height: 100px;
+        background-color: black;
+        border: 2px double black;
+        border-radius: 15px;
+        padding: 15px;
+        margin: 5px; }
+    main .grid-container4 .main-ayuda .ventajas {
+      width: 100%;
+      padding: 5px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      main .grid-container4 .main-ayuda .ventajas h2 {
+        font-size: 40px;
+        font-weight: 400;
+        font-style: normal;
+        font-family: 'Lato', sans-serif;
+        line-height: 100px; }
+      main .grid-container4 .main-ayuda .ventajas h3 {
+        font-size: 25px;
+        font-weight: bold;
+        font-style: normal;
+        font-family: 'Lato', sans-serif;
+        line-height: 100px; }
+      main .grid-container4 .main-ayuda .ventajas img {
+        width: 200px;
+        height: 150px;
+        padding: 25px; }
+      main .grid-container4 .main-ayuda .ventajas p {
+        font-size: 25px;
+        font-weight: bold;
+        font-style: normal;
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 1px; }
+      main .grid-container4 .main-ayuda .ventajas div p {
+        font-size: 25px;
+        font-weight: bold;
+        font-style: normal;
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 1px; }
+    main .grid-container4 .main-ayuda .ubicacion {
+      background-color: rgba(70, 70, 70, 0.182);
+      width: 100%;
+      padding: 30px;
+      text-align: center;
+      margin: 5px;
+      padding: 2px; }
+      main .grid-container4 .main-ayuda .ubicacion h2 {
+        font-size: 30px;
+        font-weight: 400;
+        font-style: normal;
+        font-family: 'Lato', sans-serif;
+        line-height: 100px; }
+      main .grid-container4 .main-ayuda .ubicacion h3 {
+        font-size: 25px;
+        font-weight: bold;
+        font-style: normal;
+        font-family: 'Lato', sans-serif;
+        line-height: 100px; }
+      main .grid-container4 .main-ayuda .ubicacion iframe {
+        width: 100%;
+        content: 10px; }
+    main .grid-container4 .main-ayuda .opinion {
+      background-color: rgba(0, 0, 0, 0.247);
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      main .grid-container4 .main-ayuda .opinion div p {
+        padding: 8px;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        font-family: 'Lato', sans-serif; }
+
 /*INDEX*/
 /*---FOOTER---*/
 footer {
-  background: linear-gradient(161deg, black 25%, #191717 50%, black 75%);
+  background: linear-gradient(161deg, black 30%, #191717 60%, black 80%);
   height: 200px;
   display: flex;
   justify-content: space-around;
@@ -659,3 +1029,331 @@ footer {
 @media screen and (max-width: 350px) {
   main .grid-container .tarjetas .accordion-item h2 {
     margin-left: 35%; } }
+
+/*RESPONSIVE Accesorios/Main MAX-WIDTH*/
+@media screen and (max-width: 1051px) {
+  main .grid-container2 {
+    grid-template-columns: 0.75fr repeat(2, 1.5fr);
+    grid-template-rows: auto; } }
+
+@media screen and (max-width: 870px) {
+  main .menu2 h1 {
+    font-size: 20px; }
+  main .menu2 h2 {
+    font-size: 15px; } }
+
+@media screen and (max-width: 786px) {
+  main .grid-container2 {
+    grid-template-columns: 1fr 1fr; }
+  main .grid-container2 .card2 .accordion-item h2 {
+    border: 3px solid black;
+    height: 40px;
+    width: 100px;
+    margin-left: 43%; }
+  main .grid-container2 .card2 {
+    display: block; }
+  main .grid-container2 .card3 {
+    grid-column: 1 / 5; }
+  main .publicidades {
+    flex-direction: column;
+    border: none; }
+  main .publicidades div {
+    width: 100%;
+    font-size: 20px; }
+  main .publicidades iframe {
+    padding: 10px;
+    width: 550px;
+    height: 200px; }
+  main .menu2 h1 {
+    font-size: 30px;
+    line-height: 100px;
+    letter-spacing: normal; }
+  main .menu2 h2 {
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: normal; }
+  main .grid-container2 .card3 .productos3 {
+    justify-content: space-evenly; } }
+
+@media screen and (max-width: 629px) {
+  main .grid-container2 .card3 .productos3 {
+    gap: none; }
+  main .grid-container2 .card3 .productos3 div {
+    width: 220px;
+    height: 300px; }
+  main .grid-container2 .card3 .productos3 div img {
+    width: 100%;
+    height: 180px; }
+  main .grid-container2 .card3 .productos3 div h3 {
+    font-size: 16px; }
+  main .grid-container2 .card3 .productos3 div p {
+    font-size: 16px; }
+  main .grid-container2 .card3 .productos3 div a {
+    font-size: 15px;
+    margin: 5px; } }
+
+@media screen and (max-width: 600px) {
+  main .grid-container2 .card2 .accordion-item h2 {
+    margin-left: 0px; }
+  main .grid-container .card2 .productos {
+    gap: 0; }
+  main .grid-container2 .card2 .productos div {
+    width: 180px;
+    height: 280px; }
+  main .grid-container2 .card2 .productos div img {
+    width: 100%;
+    height: 150px; }
+  main .grid-container2 .card2 .productos div h3 {
+    font-size: 15px; }
+  main .grid-container2 .card2 .productos div p {
+    font-size: 20px; }
+  main .grid-container2 .card2 .productos div a {
+    font-size: 15px;
+    margin: 1px;
+    padding: 5px; } }
+
+@media screen and (max-width: 561px) {
+  main .grid-container .tarjetas .card2 {
+    gap: 10px; }
+  main .grid-container2 .card2 .productos div {
+    width: 150px;
+    height: 250px; }
+  main .grid-container2 .card2 .productos div img {
+    width: 100%;
+    height: 150px; }
+  main .grid-container2 .card2 .productos div h3 {
+    font-size: 10px; }
+  main .grid-container2 .card2 .productos div p {
+    font-size: 15px; }
+  main .grid-container2 .card2 .productos div a {
+    font-size: 10px; }
+  main .publicidades iframe {
+    width: 350px;
+    height: 200px; }
+  main .grid-container2 .card3 .productos3 {
+    gap: 15px; }
+  main .grid-container2 .card3 .productos3 div {
+    width: 150px;
+    height: 250px; }
+  main .grid-container2 .card3 .productos3 div img {
+    width: 100%;
+    height: 150px; }
+  main .grid-container2 .card3 .productos3 div h3 {
+    font-size: 10px; }
+  main .grid-container2 .card3 .productos3 div p {
+    font-size: 15px; }
+  main .grid-container2 .card3 .productos3 div a {
+    font-size: 10px;
+    margin: 1px;
+    padding: 5px; } }
+
+@media screen and (max-width: 500px) {
+  main .menu2 {
+    background-attachment: local; } }
+
+@media screen and (max-width: 400px) {
+  main .grid-container2 .card2 .productos div {
+    width: 120px;
+    height: 230px; }
+  main .grid-container2 .card2 .productos div img {
+    width: 100%;
+    height: 130px; }
+  main .grid-container2 .card2 .productos div h3 {
+    font-size: 13px;
+    margin: 2px; }
+  main .grid-container2 .card2 .productos div p {
+    font-size: 15px;
+    margin: 2px; }
+  main .grid-container2 .card2 .productos div a {
+    font-size: 10x;
+    margin: 2px; }
+  main .grid-container2 .card3 .productos3 div {
+    width: 120px;
+    height: 230px; }
+  main .grid-container2 .card3 .productos3 div img {
+    width: 100%;
+    height: 130px; }
+  main .grid-container2 .card3 .productos3 div h3 {
+    font-size: 10px;
+    margin: 2px; }
+  main .grid-container2 .card3 .productos3 div p {
+    font-size: 15px;
+    margin: 2px; }
+  main .grid-container2 .card3 .productos3 div a {
+    font-size: 10px;
+    margin: 2px; } }
+
+@media screen and (max-width: 530px) {
+  main .menu2 h1 {
+    font-size: 30px; }
+  main .menu2 h2 {
+    font-size: 18px; } }
+
+@media screen and (max-width: 390px) {
+  main .menu2 h1 {
+    font-size: 20px; }
+  main .menu2 h2 {
+    font-size: 15px; } }
+
+@media screen and (max-width: 350px) {
+  main .grid-container2 .card2 .accordion-item h2 {
+    margin-left: 35%; } }
+
+/*RESPONSIVE Marcas/Main MAX-WIDTH*/
+@media screen and (max-width: 786px) {
+  main .grid-container3 {
+    grid-template-columns: 1fr 1fr; }
+  main .grid-container3 .card4 {
+    display: block; }
+  main .grid-container3 .card4 .accordion-item h2 {
+    border: 3px solid black;
+    height: 40px;
+    width: 100px;
+    margin-left: 43%; }
+  main .menu3 h1 {
+    font-size: 30px;
+    line-height: 100px;
+    letter-spacing: normal; }
+  main .menu3 h2 {
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: normal; } }
+
+@media screen and (max-width: 600px) {
+  main .grid-container3 .card4 .accordion-item h2 {
+    margin-left: 0px; }
+  main .grid-container3 .card4 .productos {
+    gap: 0; }
+  main .grid-container3 .card4 .productos div {
+    width: 180px;
+    height: 280px; }
+  main .grid-container3 .card4 .productos div img {
+    width: 100%;
+    height: 150px; }
+  main .grid-container3 .card4 .productos div h3 {
+    font-size: 15px; }
+  main .grid-container3 .card4 .productos div p {
+    font-size: 20px; }
+  main .grid-container3 .card4 .productos div a {
+    font-size: 15px;
+    margin: 1px;
+    padding: 5px; } }
+
+@media screen and (max-width: 559px) {
+  main .grid-container3 .card4 .productos {
+    gap: 10px; }
+  main .grid-container3 .card4 .productos div {
+    width: 150px;
+    height: 250px; }
+  main .grid-container3 .card4 .productos div img {
+    width: 100%;
+    height: 150px; }
+  main .grid-container3 .card4 .productos div h3 {
+    font-size: 10px; }
+  main .grid-container3 .card4 .productos div p {
+    font-size: 15px; }
+  main .grid-container3 .card4 .productos div a {
+    font-size: 10px; } }
+
+@media screen and (max-width: 500px) {
+  main .menu3 {
+    background-attachment: local; } }
+
+@media screen and (max-width: 369px) {
+  main .grid-container3 .card4 .productos div {
+    width: 120px;
+    height: 230px; }
+  main .grid-container3 .card4 .productos div img {
+    width: 100%;
+    height: 130px; }
+  main .grid-container3 .card4 .productos div h3 {
+    font-size: 10px; }
+  main .grid-container3 .card4 .productos div p {
+    font-size: 13px; }
+  main .grid-container3 .card4 .productos div a {
+    font-size: 8px; } }
+
+@media screen and (max-width: 350px) {
+  main .grid-container3 .card4 .accordion-item h2 {
+    margin-left: 35%; } }
+
+/*RESPONSIVE Ayuda/Grid MAX-WIDTH*/
+@media screen and (max-width: 1208px) {
+  main .grid-container4 .main-ayuda .menu4 h1 {
+    font-size: 70px;
+    text-decoration: underline; }
+  main .grid-container4 .main-ayuda .pagos h2 {
+    font-size: 30px;
+    line-height: 80px; }
+  main .grid-container4 .main-ayuda .pagos h3 {
+    font-size: 20px;
+    line-height: 80px; }
+  main .grid-container4 .main-ayuda .pagos div img {
+    width: 150px;
+    height: 80px; }
+  main .grid-container4 .main-ayuda .ventajas h2 {
+    font-size: 35px; }
+  main .grid-container4 .main-ayuda .ventajas h3 {
+    font-size: 20px; }
+  main .grid-container4 .main-ayuda .ventajas img {
+    width: 170px;
+    height: 120px; }
+  main .grid-container4 .main-ayuda .ventajas div p {
+    font-size: 22px;
+    font-weight: bold; }
+  main .grid-container4 .main-ayuda .ubicacion h2 {
+    font-size: 25px;
+    font-weight: bold; } }
+
+@media screen and (max-width: 928px) {
+  main .grid-container4 .main-ayuda .menu4 h1 {
+    font-size: 50px;
+    text-decoration: underline; }
+  main .grid-container4 .main-ayuda .pagos h2 {
+    font-size: 25px;
+    line-height: 40px; }
+  main .grid-container4 .main-ayuda .pagos h3 {
+    font-size: 20px;
+    line-height: 30px; }
+  main .grid-container4 .main-ayuda .pagos div img {
+    width: 120px;
+    height: 70px; }
+  main .grid-container4 .main-ayuda .ventajas h2 {
+    font-size: 30px;
+    line-height: 70px; }
+  main .grid-container4 .main-ayuda .ventajas h3 {
+    font-size: 15px;
+    line-height: 70px; }
+  main .grid-container4 .main-ayuda .ventajas img {
+    width: 110px;
+    height: 110px; } }
+
+@media screen and (max-width: 760px) {
+  main .grid-container4 .main-ayuda .pagos div img {
+    width: 100px;
+    height: 60px; }
+  main .grid-container4 .main-ayuda .ubicacion h2 {
+    font-size: 20px;
+    line-height: 30px; }
+  main .grid-container4 .main-ayuda .ubicacion h3 {
+    font-size: 18px;
+    line-height: 30px; } }
+
+@media screen and (max-width: 668px) {
+  main .grid-container4 .main-ayuda .menu4 h1 {
+    font-size: 40px;
+    text-decoration: underline; } }
+
+@media screen and (max-width: 584px) {
+  main .grid-container4 .main-ayuda .ventajas h2 {
+    line-height: 30px; }
+  main .grid-container4 .main-ayuda .ventajas h3 {
+    line-height: 50px; }
+  main .grid-container4 .main-ayuda .ubicacion iframe {
+    height: 200px; }
+  main .grid-container4 .main-ayuda .opinion {
+    height: 200px; } }
+
+@media screen and (max-width: 384px) {
+  main .grid-container4 .main-ayuda .ventajas h3 {
+    line-height: 25px; } }

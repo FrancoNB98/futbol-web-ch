@@ -3,7 +3,7 @@
 /*INDEX*/
 /*---FOOTER---*/
 footer{
-    background: linear-gradient(161deg, rgba(0,0,0,1) 25%, rgba(25,23,23,1) 50%, rgba(0,0,0,1) 75%);
+    background: $color-nav;
     height: 200px;
     display: flex;
     justify-content: space-around;
@@ -21,7 +21,7 @@ footer{
             li{
                 a{
                     text-decoration: none;
-                    color: $color-blanco;
+                    color: white;
                     font-size: 20px;
                     font-weight: 200;
                     font-family: 'Koulen', cursive;
@@ -43,7 +43,7 @@ footer{
                 font-size: 15px;
                 font-weight: 200;
                 font-family: 'Koulen', cursive;
-                color: $color-blanco;
+                color: white;
             }
         }
     }
