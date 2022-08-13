@@ -34,8 +34,37 @@ header nav .segundo-nav {
   padding: 5px;
   background: linear-gradient(161deg, black 9%, #191717 43%, black 67%); }
 
+main .hero, main .menu1, main .menu2, main .menu3, main .grid-container4 .main-ayuda .menu4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+main .grid-container .tarjetas .productos, main .grid-container2 .card2 .productos, main .grid-container3 .card4 .productos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around; }
+
+main .grid-container-ofertas .seccion-ofertas .grid-items div h3, main .grid-container-ofertas .seccion-ofertas .grid-items div p, main .grid-container .tarjetas .productos div h3, main .grid-container .tarjetas .productos div p, main .grid-container2 .card2 .productos div h3, main .grid-container2 .card2 .productos div p, main .grid-container2 .card3 .productos3 div h3, main .grid-container2 .card3 .productos3 div p, main .grid-container3 .card4 .productos div h3, main .grid-container3 .card4 .productos div p {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Koulen', cursive; }
+
+main .grid-container .tarjetas .productos div, main .grid-container2 .card2 .productos div, main .grid-container3 .card4 .productos div {
+  width: 250px;
+  height: 360px;
+  letter-spacing: normal;
+  border: 1px solid lightsteelblue;
+  margin: 20px 10px 15px 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75); }
+
 /*INDEX*/
-/*---Main---*/
 main .hero {
   width: 100%;
   height: 100vh;
@@ -44,12 +73,7 @@ main .hero {
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap; }
+  color: white; }
   main .hero h1 {
     font-size: 40px;
     font-weight: 200;
@@ -82,7 +106,7 @@ main .hero {
       color: black; }
 
 main .marcas {
-  background-color: rgba(176, 196, 222, 0.938);
+  background-color: lightsteelblue;
   padding: 1px;
   text-align: center;
   display: flex;
@@ -191,15 +215,9 @@ main .grid-container-ofertas {
           border-top-left-radius: 15px;
           border-top-right-radius: 15px; }
         main .grid-container-ofertas .seccion-ofertas .grid-items div h3 {
-          font-weight: 600;
-          font-family: 'Koulen', cursive;
-          margin: 6px;
-          font-size: 17px; }
+          margin: 6px; }
         main .grid-container-ofertas .seccion-ofertas .grid-items div p {
-          font-weight: 600;
-          font-family: 'Koulen', cursive;
-          margin-bottom: 10px;
-          font-size: 15px; }
+          margin-bottom: 10px; }
         main .grid-container-ofertas .seccion-ofertas .grid-items div a {
           width: 100%;
           height: 100%;
@@ -228,12 +246,7 @@ main .menu1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap; }
+  text-align: center; }
   main .menu1 h1 {
     font-size: 40px;
     font-weight: 200;
@@ -285,41 +298,22 @@ main .grid-container {
       font-size: 15px;
       font-family: 'Koulen', cursive; }
     main .grid-container .tarjetas .productos {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-around;
       gap: 40px; }
       main .grid-container .tarjetas .productos div {
-        width: 250px;
-        height: 360px;
-        letter-spacing: normal;
-        border: 1px solid lightsteelblue;
-        margin: 20px 10px 15px 20px;
-        text-align: center;
-        border-radius: 15px;
-        background-color: gainsboro;
-        box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
-        -webkit-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75); }
+        background-color: gainsboro; }
         main .grid-container .tarjetas .productos div img {
           width: 100%;
           height: 250px;
           border-top-left-radius: 15px;
           border-top-right-radius: 15px; }
         main .grid-container .tarjetas .productos div h3 {
-          padding: 3px;
-          font-size: 16px;
-          font-weight: 600;
-          font-family: 'Koulen', cursive; }
+          padding: 3px; }
         main .grid-container .tarjetas .productos div p {
-          margin: 3px;
-          font-size: 18px;
-          font-weight: 600;
-          font-family: 'Koulen', cursive; }
+          margin: 3px; }
         main .grid-container .tarjetas .productos div a {
           text-decoration: none;
           background-color: black;
+          border-radius: 8px;
           color: white; }
 
 main .publicidades {
@@ -329,7 +323,7 @@ main .publicidades {
   justify-content: space-around;
   flex-direction: row-reverse;
   align-items: center;
-  border: 3px solid rgba(54, 54, 200, 0.894); }
+  border: 3px solid rgba(45, 45, 158, 0.894); }
   main .publicidades iframe {
     width: 500px;
     height: 260px; }
@@ -351,12 +345,7 @@ main .menu2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap; }
+  text-align: center; }
   main .menu2 h1 {
     font-size: 40px;
     font-weight: 200;
@@ -403,41 +392,22 @@ main .grid-container2 {
       font-size: 15px;
       font-family: 'Koulen', cursive; }
     main .grid-container2 .card2 .productos {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-around;
       gap: 40px; }
       main .grid-container2 .card2 .productos div {
-        width: 250px;
-        height: 360px;
-        letter-spacing: normal;
-        border: 1px solid lightsteelblue;
-        margin: 20px 10px 15px 20px;
-        text-align: center;
-        border-radius: 15px;
-        background-color: gainsboro;
-        box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
-        -webkit-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75); }
+        background-color: gainsboro; }
         main .grid-container2 .card2 .productos div img {
           width: 100%;
           height: 250px;
           border-top-left-radius: 15px;
           border-top-right-radius: 15px; }
         main .grid-container2 .card2 .productos div h3 {
-          padding: 3px;
-          font-size: 16px;
-          font-weight: 600;
-          font-family: 'Koulen', cursive; }
+          padding: 3px; }
         main .grid-container2 .card2 .productos div p {
-          margin: 3px;
-          font-size: 18px;
-          font-weight: 600;
-          font-family: 'Koulen', cursive; }
+          margin: 3px; }
         main .grid-container2 .card2 .productos div a {
           text-decoration: none;
           background-color: black;
+          border-radius: 8px;
           color: white; }
   main .grid-container2 .card3 {
     grid-column: 2 / 5; }
@@ -465,18 +435,13 @@ main .grid-container2 {
           border-top-left-radius: 15px;
           border-top-right-radius: 15px; }
         main .grid-container2 .card3 .productos3 div h3 {
-          padding: 3px;
-          font-size: 16px;
-          font-weight: 600;
-          font-family: 'Koulen', cursive; }
+          padding: 3px; }
         main .grid-container2 .card3 .productos3 div p {
-          margin: 3px;
-          font-size: 18px;
-          font-weight: 600;
-          font-family: 'Koulen', cursive; }
+          margin: 3px; }
         main .grid-container2 .card3 .productos3 div a {
           text-decoration: none;
           background-color: black;
+          border-radius: 8px;
           color: white; }
 
 main section .publicidades {
@@ -492,12 +457,7 @@ main .menu3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap; }
+  text-align: center; }
   main .menu3 h1 {
     font-size: 40px;
     font-weight: 200;
@@ -544,41 +504,22 @@ main .grid-container3 {
       font-size: 15px;
       font-family: 'Koulen', cursive; }
     main .grid-container3 .card4 .productos {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-around;
       gap: 40px; }
       main .grid-container3 .card4 .productos div {
-        width: 250px;
-        height: 360px;
-        letter-spacing: normal;
-        border: 1px solid lightsteelblue;
-        margin: 20px 10px 15px 20px;
-        text-align: center;
-        border-radius: 15px;
-        background-color: gainsboro;
-        box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
-        -webkit-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75); }
+        background-color: gainsboro; }
         main .grid-container3 .card4 .productos div img {
           width: 100%;
           height: 250px;
           border-top-left-radius: 15px;
           border-top-right-radius: 15px; }
         main .grid-container3 .card4 .productos div h3 {
-          padding: 3px;
-          font-size: 16px;
-          font-weight: 600;
-          font-family: 'Koulen', cursive; }
+          padding: 3px; }
         main .grid-container3 .card4 .productos div p {
-          margin: 3px;
-          font-size: 18px;
-          font-weight: 600;
-          font-family: 'Koulen', cursive; }
+          margin: 3px; }
         main .grid-container3 .card4 .productos div a {
           text-decoration: none;
           background-color: black;
+          border-radius: 8px;
           color: white; }
 
 /*--AYUDA--*/
@@ -594,12 +535,7 @@ main .grid-container4 {
       width: 100%;
       text-align: center;
       padding: 0;
-      margin: 2px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      flex-wrap: wrap; }
+      margin: 2px; }
       main .grid-container4 .main-ayuda .menu4 h1 {
         font-size: 80px;
         font-weight: 400;
@@ -712,7 +648,6 @@ main .grid-container4 {
         font-style: normal;
         font-family: 'Lato', sans-serif; }
 
-/*INDEX*/
 /*---FOOTER---*/
 footer {
   background: linear-gradient(161deg, black 30%, #191717 60%, black 80%);
