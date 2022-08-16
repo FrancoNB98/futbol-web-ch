@@ -1,6 +1,6 @@
-@mixin imagen ($width, $heigth, $border, $border){
-    width: $width;
-    height: $heigth;
+@mixin imagen ($ancho, $alto, $border, $borde){
+    width: $ancho;
+    height: $alto;
     border-top-left-radius: $border;
-    border-top-right-radius: $border;
+    border-top-right-radius: $borde;
 }
