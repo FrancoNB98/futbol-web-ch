@@ -173,11 +173,15 @@ main{
                         border-top-right-radius: 15px;
                     }
                     h3{
-                        @extend %font-t;
+                        font-size: 16px;
+                        font-weight: 600;
+                        font-family: 'Koulen', cursive;
                         margin: 6px;
                     }
                     p{
-                        @extend %font-t;
+                        font-size: 16px;
+                        font-weight: 600;
+                        font-family: 'Koulen', cursive;
                         margin-bottom: 10px;
                     }
                     a{
@@ -294,18 +298,31 @@ main{
                 @extend %flex-producto;
                 gap: 40px;
                 div{
-                    @extend %tarjetas-e;
+                    width: 250px;
+                    height: 360px;
+                    letter-spacing: normal;
+                    border: 1px solid lightsteelblue;
+                    margin: 20px 10px 15px 20px;
+                    text-align: center;
+                    border-radius: 15px;
+                    box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+                    -webkit-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
                     background-color: $bg-tarjeta;
                     img{
                         @include imagen (100%, 250px, 15px, 15px);
                     }
                     h3{
                         padding: 3px;
-                        @extend %font-t;
+                        font-size: 16px;
+                        font-weight: 600;
+                        font-family: 'Koulen', cursive;
                     }
                     p{
                         margin: 3px;
-                        @extend %font-t;
+                        font-size: 16px;
+                        font-weight: 600;
+                        font-family: 'Koulen', cursive;
                     }
                     a{
                         text-decoration: none;
@@ -412,18 +429,31 @@ main{
                 @extend %flex-producto;
                 gap: 40px;
                 div{
-                    @extend %tarjetas-e;
+                    width: 250px;
+                    height: 360px;
+                    letter-spacing: normal;
+                    border: 1px solid lightsteelblue;
+                    margin: 20px 10px 15px 20px;
+                    text-align: center;
+                    border-radius: 15px;
+                    box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+                    -webkit-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
                     background-color: $bg-tarjeta;
                     img{
                         @include imagen (100%, 250px, 15px, 15px);
                     }
                     h3{
                         padding: 3px;
-                        @extend %font-t;
+                        font-size: 16px;
+                        font-weight: 600;
+                        font-family: 'Koulen', cursive;
                     }
                     p{
                         margin: 3px;
-                        @extend %font-t;
+                        font-size: 16px;
+                        font-weight: 600;
+                        font-family: 'Koulen', cursive;
                     }
                     a{
                         text-decoration: none;
@@ -459,11 +489,15 @@ main{
                     }
                     h3{
                         padding: 3px;
-                        @extend %font-t;
+                        font-size: 16px;
+                        font-weight: 600;
+                        font-family: 'Koulen', cursive;
                     }
                     p{
                         margin: 3px;
-                        @extend %font-t;;
+                        font-size: 16px;
+                        font-weight: 600;
+                        font-family: 'Koulen', cursive;
                     }
                     a{
                         text-decoration: none;
@@ -555,18 +589,31 @@ main{
                 @extend %flex-producto;
                 gap: 40px;
                 div{
-                    @extend %tarjetas-e;
+                    width: 250px;
+                    height: 360px;
+                    letter-spacing: normal;
+                    border: 1px solid lightsteelblue;
+                    margin: 20px 10px 15px 20px;
+                    text-align: center;
+                    border-radius: 15px;
+                    box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+                    -webkit-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
                     background-color: $bg-tarjeta;
                     img{
                         @include imagen (100%, 250px, 15px, 15px);
                     }
                     h3{
                         padding: 3px;
-                        @extend %font-t;
+                        font-size: 16px;
+                        font-weight: 600;
+                        font-family: 'Koulen', cursive;
                     }
                     p{
                         margin: 3px;
-                        @extend %font-t;
+                        font-size: 16px;
+                        font-weight: 600;
+                        font-family: 'Koulen', cursive;
                     }
                     a{
                         text-decoration: none;

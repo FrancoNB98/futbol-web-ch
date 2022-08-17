@@ -15,25 +15,3 @@
     align-items: center;
     justify-content: space-around;
 }
-
-// H1 Y H2 Productos
-%font-t{
-    font-size: 16px;
-    font-weight: 600;
-    font-family: 'Koulen', cursive;
-}
-
-
-// TARJERTAS Especificaciones:
-%tarjetas-e{
-    width: 250px;
-    height: 360px;
-    letter-spacing: normal;
-    border: 1px solid lightsteelblue;
-    margin: 20px 10px 15px 20px;
-    text-align: center;
-    border-radius: 15px;
-    box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
-}

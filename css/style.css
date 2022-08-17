@@ -47,23 +47,6 @@ main .grid-container .tarjetas .productos, main .grid-container2 .card2 .product
   align-items: center;
   justify-content: space-around; }
 
-main .grid-container-ofertas .seccion-ofertas .grid-items div h3, main .grid-container-ofertas .seccion-ofertas .grid-items div p, main .grid-container .tarjetas .productos div h3, main .grid-container .tarjetas .productos div p, main .grid-container2 .card2 .productos div h3, main .grid-container2 .card2 .productos div p, main .grid-container2 .card3 .productos3 div h3, main .grid-container2 .card3 .productos3 div p, main .grid-container3 .card4 .productos div h3, main .grid-container3 .card4 .productos div p {
-  font-size: 16px;
-  font-weight: 600;
-  font-family: 'Koulen', cursive; }
-
-main .grid-container .tarjetas .productos div, main .grid-container2 .card2 .productos div, main .grid-container3 .card4 .productos div {
-  width: 250px;
-  height: 360px;
-  letter-spacing: normal;
-  border: 1px solid lightsteelblue;
-  margin: 20px 10px 15px 20px;
-  text-align: center;
-  border-radius: 15px;
-  box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75); }
-
 /*INDEX*/
 main .hero {
   width: 100%;
@@ -215,8 +198,14 @@ main .grid-container-ofertas {
           border-top-left-radius: 15px;
           border-top-right-radius: 15px; }
         main .grid-container-ofertas .seccion-ofertas .grid-items div h3 {
+          font-size: 16px;
+          font-weight: 600;
+          font-family: 'Koulen', cursive;
           margin: 6px; }
         main .grid-container-ofertas .seccion-ofertas .grid-items div p {
+          font-size: 16px;
+          font-weight: 600;
+          font-family: 'Koulen', cursive;
           margin-bottom: 10px; }
         main .grid-container-ofertas .seccion-ofertas .grid-items div a {
           width: 100%;
@@ -300,6 +289,16 @@ main .grid-container {
     main .grid-container .tarjetas .productos {
       gap: 40px; }
       main .grid-container .tarjetas .productos div {
+        width: 250px;
+        height: 360px;
+        letter-spacing: normal;
+        border: 1px solid lightsteelblue;
+        margin: 20px 10px 15px 20px;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
         background-color: gainsboro; }
         main .grid-container .tarjetas .productos div img {
           width: 100%;
@@ -307,9 +306,15 @@ main .grid-container {
           border-top-left-radius: 15px;
           border-top-right-radius: 15px; }
         main .grid-container .tarjetas .productos div h3 {
-          padding: 3px; }
+          padding: 3px;
+          font-size: 16px;
+          font-weight: 600;
+          font-family: 'Koulen', cursive; }
         main .grid-container .tarjetas .productos div p {
-          margin: 3px; }
+          margin: 3px;
+          font-size: 16px;
+          font-weight: 600;
+          font-family: 'Koulen', cursive; }
         main .grid-container .tarjetas .productos div a {
           text-decoration: none;
           background-color: black;
@@ -394,6 +399,16 @@ main .grid-container2 {
     main .grid-container2 .card2 .productos {
       gap: 40px; }
       main .grid-container2 .card2 .productos div {
+        width: 250px;
+        height: 360px;
+        letter-spacing: normal;
+        border: 1px solid lightsteelblue;
+        margin: 20px 10px 15px 20px;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
         background-color: gainsboro; }
         main .grid-container2 .card2 .productos div img {
           width: 100%;
@@ -401,9 +416,15 @@ main .grid-container2 {
           border-top-left-radius: 15px;
           border-top-right-radius: 15px; }
         main .grid-container2 .card2 .productos div h3 {
-          padding: 3px; }
+          padding: 3px;
+          font-size: 16px;
+          font-weight: 600;
+          font-family: 'Koulen', cursive; }
         main .grid-container2 .card2 .productos div p {
-          margin: 3px; }
+          margin: 3px;
+          font-size: 16px;
+          font-weight: 600;
+          font-family: 'Koulen', cursive; }
         main .grid-container2 .card2 .productos div a {
           text-decoration: none;
           background-color: black;
@@ -435,9 +456,15 @@ main .grid-container2 {
           border-top-left-radius: 15px;
           border-top-right-radius: 15px; }
         main .grid-container2 .card3 .productos3 div h3 {
-          padding: 3px; }
+          padding: 3px;
+          font-size: 16px;
+          font-weight: 600;
+          font-family: 'Koulen', cursive; }
         main .grid-container2 .card3 .productos3 div p {
-          margin: 3px; }
+          margin: 3px;
+          font-size: 16px;
+          font-weight: 600;
+          font-family: 'Koulen', cursive; }
         main .grid-container2 .card3 .productos3 div a {
           text-decoration: none;
           background-color: black;
@@ -506,6 +533,16 @@ main .grid-container3 {
     main .grid-container3 .card4 .productos {
       gap: 40px; }
       main .grid-container3 .card4 .productos div {
+        width: 250px;
+        height: 360px;
+        letter-spacing: normal;
+        border: 1px solid lightsteelblue;
+        margin: 20px 10px 15px 20px;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
         background-color: gainsboro; }
         main .grid-container3 .card4 .productos div img {
           width: 100%;
@@ -513,9 +550,15 @@ main .grid-container3 {
           border-top-left-radius: 15px;
           border-top-right-radius: 15px; }
         main .grid-container3 .card4 .productos div h3 {
-          padding: 3px; }
+          padding: 3px;
+          font-size: 16px;
+          font-weight: 600;
+          font-family: 'Koulen', cursive; }
         main .grid-container3 .card4 .productos div p {
-          margin: 3px; }
+          margin: 3px;
+          font-size: 16px;
+          font-weight: 600;
+          font-family: 'Koulen', cursive; }
         main .grid-container3 .card4 .productos div a {
           text-decoration: none;
           background-color: black;
@@ -916,9 +959,7 @@ footer {
   main .grid-container .tarjetas .productos div p {
     font-size: 20px; }
   main .grid-container .tarjetas .productos div a {
-    font-size: 15px;
-    margin: 1px;
-    padding: 5px; } }
+    font-size: 15px; } }
 
 @media screen and (max-width: 559px) {
   main .grid-container .tarjetas .productos {
@@ -1305,20 +1346,3 @@ main .grid-container .tarjetas .productos, main .grid-container2 .card2 .product
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around; }
-
-main .grid-container-ofertas .seccion-ofertas .grid-items div h3, main .grid-container-ofertas .seccion-ofertas .grid-items div p, main .grid-container .tarjetas .productos div h3, main .grid-container .tarjetas .productos div p, main .grid-container2 .card2 .productos div h3, main .grid-container2 .card2 .productos div p, main .grid-container2 .card3 .productos3 div h3, main .grid-container2 .card3 .productos3 div p, main .grid-container3 .card4 .productos div h3, main .grid-container3 .card4 .productos div p {
-  font-size: 16px;
-  font-weight: 600;
-  font-family: 'Koulen', cursive; }
-
-main .grid-container .tarjetas .productos div, main .grid-container2 .card2 .productos div, main .grid-container3 .card4 .productos div {
-  width: 250px;
-  height: 360px;
-  letter-spacing: normal;
-  border: 1px solid lightsteelblue;
-  margin: 20px 10px 15px 20px;
-  text-align: center;
-  border-radius: 15px;
-  box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75); }
