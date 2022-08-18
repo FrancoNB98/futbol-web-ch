@@ -89,7 +89,7 @@ main .hero {
       color: black; }
 
 main .marcas {
-  background-color: lightsteelblue;
+  background-color: gainsboro;
   padding: 1px;
   text-align: center;
   display: flex;
@@ -111,7 +111,7 @@ main .marcas {
 main .loMasBuscado {
   text-align: center;
   padding: 10px;
-  background-color: lightsteelblue;
+  background-color: gainsboro;
   background-size: cover;
   display: flex;
   justify-content: center;
