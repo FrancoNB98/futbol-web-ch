@@ -10,7 +10,7 @@ header .navbar {
   background: linear-gradient(161deg, black 30%, #191717 60%, black 80%);
   padding: 10px; }
   header .navbar .container-fluid .navbar-brand img {
-    width: 100px;
+    width: 130px;
     height: 100px;
     transition: 2s; }
     header .navbar .container-fluid .navbar-brand img:hover {
@@ -701,7 +701,7 @@ footer {
   flex-wrap: wrap;
   margin-top: 15px; }
   footer div .Logopie {
-    width: 100px;
+    width: 130px;
     height: 100px; }
   footer .columna2 ul li a {
     text-decoration: none;
