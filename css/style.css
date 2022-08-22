@@ -939,6 +939,10 @@ footer {
     line-height: 40px;
     letter-spacing: normal; } }
 
+@media screen and (max-width: 767px) {
+  header nav .segundo-nav {
+    background: black; } }
+
 @media screen and (max-width: 694px) {
   main section div .uno img {
     height: 200px; } }
@@ -982,7 +986,12 @@ footer {
 
 @media screen and (max-width: 500px) {
   main .menu1 {
-    background-attachment: local; } }
+    background-attachment: local; }
+  header .navbar .container-fluid .navbar-brand img {
+    width: 90px;
+    height: 80px; }
+  header .navbar {
+    background: linear-gradient(161deg, black 45%, #0b0b0b 60%, black 75%); } }
 
 @media screen and (max-width: 400px) {
   main section div .uno img {
@@ -990,7 +999,7 @@ footer {
 
 @media screen and (max-width: 369px) {
   main .grid-container .tarjetas .productos div {
-    width: 120px;
+    width: 140px;
     height: 230px; }
   main .grid-container .tarjetas .productos div img {
     width: 100%;
